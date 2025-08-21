@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4f4adc6c84417ecf",
+        "id": "4511d72859849664",
         "type": "tabs",
         "children": [
           {
-            "id": "579c0617746b1393",
+            "id": "40c7638923f8c82a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DevNest/技术博客记录 Init.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "技术博客记录 Init"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4b6433b1a2e75e15",
@@ -172,11 +167,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "579c0617746b1393",
+  "active": "40c7638923f8c82a",
   "lastOpenFiles": [
+    "DevNest/技术博客记录 Init.md",
     "静不下心的本质是什么.md",
     "为什么我醒得早心态就会崩盘.md",
-    "DevNest/技术博客记录 Init.md",
     "焦虑.md",
     "拖延的本质是什么？.md",
     "我才不想做家务.md",
