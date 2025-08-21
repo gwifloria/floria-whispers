@@ -1,0 +1,1 @@
+git submodule add -b main origin git@github.com:gwifloria/eriko-whispers.git content
