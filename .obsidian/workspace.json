@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode 复习笔记.md",
+                "file": "ByteNotes/leetcode 复习笔记.md",
                 "mode": "source",
                 "source": false
               },
@@ -186,10 +186,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6253fcd2983b6ca0",
+  "active": "baa563987d9f91df",
   "lastOpenFiles": [
     "ByteNotes/个人前端Blog与 Obsidian 同步.md",
-    "leetcode 复习笔记.md",
+    "ByteNotes/leetcode 复习笔记.md",
     "Murmurs/保持清醒，别把思考交给 AI.md",
     "未命名.md",
     "未命名.base",
