@@ -34,3 +34,5 @@ return arr
 ```
 
 一开始直接在 line 8 total / k，k=0 就挂了
+
+## 2379 
