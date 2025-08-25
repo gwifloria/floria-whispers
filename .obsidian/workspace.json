@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4b6433b1a2e75e15",
@@ -186,9 +187,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "baa563987d9f91df",
+  "active": "6253fcd2983b6ca0",
   "lastOpenFiles": [
     "ByteNotes/个人前端Blog与 Obsidian 同步.md",
+    "《刻意练习》阅读记录.md",
     "ByteNotes/leetcode 复习笔记.md",
     "Murmurs/保持清醒，别把思考交给 AI.md",
     "未命名.md",
@@ -216,7 +218,6 @@
     "白莲花度假村.md",
     "庐山游记.md",
     "每周产出一篇文章、笔记.md",
-    "上海人为什么不愿意生小孩？.md",
     "读后感"
   ]
 }

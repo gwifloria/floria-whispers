@@ -1,4 +1,10 @@
-## 2090 #leetcode-medium  
+## 滑动窗口Sliding Window
+### 2461 长度为 k子数组的最大和 #leetcode-medium #leetcode-sliding-window 
+
+
+
+
+### 2090 #leetcode-medium  
 半径为 K 的子数组平均值
 第一反应：维护一个数组arr 去记录 arr[i]，范围为长度为 2k 内 的 total
 第二反应：并不需要一个数组，只需要一个滑动窗口，记录到 arr[i]当前为 k 半径内的总和就行，然后左侧出窗口，右侧进窗口
@@ -36,7 +42,7 @@ return arr
 
 一开始直接在 line 8 total / k，k=0 就挂了
 
-## 2379  #leetcode-medium 
+### 2379  #leetcode-medium 
 思路
 
 > 滑动窗口，维护一个长度为 k 的窗口，计算在这个窗口内黑色块出现的最多次数，在不足长度 k 的时候让右侧区块进入判断区间，超过长度 k 时让右侧区块离开。 在这个窗口内出现黑色次数越多，需要替换成白色的次数越少
@@ -82,7 +88,7 @@ return k - res
 };
 ```
 
-## 2841 几乎唯一子数组的最大和 
+### 2841 几乎唯一子数组的最大和 
 #leetcode-medium
 #leetcode-sliding-window
 
@@ -151,3 +157,6 @@ function maxSum(nums: number[], m: number, k: number): number {
 • 其余是常数级变量。
 
 • ⇒ O(k)
+
+
+
