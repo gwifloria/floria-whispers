@@ -89,12 +89,12 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4b6433b1a2e75e15",
@@ -187,7 +187,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6253fcd2983b6ca0",
+  "active": "77d2ce8ff2255b50",
   "lastOpenFiles": [
     "ByteNotes/个人前端Blog与 Obsidian 同步.md",
     "《刻意练习》阅读记录.md",
