@@ -49,7 +49,8 @@
               "title": "保持清醒，别把思考交给 AI"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,9 +200,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9dcbb14dba939032",
+  "active": "b416e20796687dbe",
   "lastOpenFiles": [
     "GPT5 写代码的缺点.md",
+    "GAP.md",
     "Murmurs/保持清醒，别把思考交给 AI.md",
     "Murmurs/📚《为什么我只想呆在家》.md",
     "ByteNotes/leetcode 复习笔记.md",
@@ -215,7 +217,6 @@
     "静不下心的本质是什么.md",
     "现在会有点恐慌.md",
     "原来日本的老龄化速度比中国慢.md",
-    "GAP.md",
     "HomeAssistant +Raspberry Pi + KNX + HomeKit 集成踩坑记录.md",
     "IDK the name.md",
     "未命名.md",
