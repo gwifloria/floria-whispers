@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GAP.md",
+                "file": "Murmurs/社交属性，究竟满足了谁的身份认同.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GAP"
+              "title": "社交属性，究竟满足了谁的身份认同"
             }
           }
         ],
@@ -202,6 +202,7 @@
   },
   "active": "b416e20796687dbe",
   "lastOpenFiles": [
+    "GAP.md",
     "Murmurs/保持清醒，别把思考交给 AI.md",
     "Murmurs/社交属性，究竟满足了谁的身份认同.md",
     "澳门美食.md",
@@ -220,7 +221,6 @@
     "《3分钟未来日记》.md",
     "《1367》读后感.md",
     "Murmurs/📚《刻意练习》.md",
-    "GAP.md",
     "Murmurs/📚《为什么我只想呆在家》.md",
     "ByteNotes/leetcode 复习笔记.md",
     "ByteNotes/个人前端Blog与 Obsidian 同步.md",
