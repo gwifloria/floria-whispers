@@ -6,6 +6,6 @@
 
 1. 图片大小优化 WebP
 2. Forced reflow
+		a. 
 3. LCP request discovery
-4.   
-Network dependency tree
+4.   Network dependency tree
