@@ -4,6 +4,7 @@
  没做出来，看的灵神解析
  统计不生气时的顾客数量，以及找到固定窗口长度内不生气的顾客数量的最大值
 ```
+/*
 
 * @lc app=leetcode.cn id=1052 lang=javascript
 
@@ -36,15 +37,15 @@ var maxSatisfied = function (customers, grumpy, minutes) {
 
 let res = 0
 
-let total = 0
+let notAngrySum = 0
 
-let curWindowTotal = 0
+let curWindowAngrySum = 0
 
 for (let i = 0 ; i < customers.length ; i++) {
 
-total += grumpy[i] === 0 ? customers[i] : 0
+notAngrySum += grumpy[i] === 0 ? customers[i] : 0
 
-curWindowTotal += customers[i] * grumpy[i]
+curWindowAngrySum += customers[i] * grumpy[i]
 
 if (i < minutes - 1) {
 
@@ -52,13 +53,13 @@ continue
 
 }
 
-res = Math.max(curWindowTotal, res)
+res = Math.max(curWindowAngrySum, res)
 
-curWindowTotal -= customers[i - minutes + 1] * grumpy[i - minutes + 1]
+curWindowAngrySum -= customers[i - minutes + 1] * grumpy[i - minutes + 1]
 
 }
 
-return total + res
+return notAngrySum + res
 
 };
 
