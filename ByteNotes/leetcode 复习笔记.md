@@ -1,5 +1,71 @@
 
 ## **滑动窗口 Sliding Window**
+### **1052爱生气的书店老板**
+ 没做出来，看的灵神解析
+ 统计不生气时的顾客数量，以及找到固定窗口长度内不生气的顾客数量的最大值
+```
+
+* @lc app=leetcode.cn id=1052 lang=javascript
+
+*
+
+* [1052] 爱生气的书店老板
+
+*/
+
+  
+
+// @lc code=start
+
+/**
+
+* @param {number[]} customers
+
+* @param {number[]} grumpy
+
+* @param {number} minutes
+
+* @return {number}
+
+*/
+
+  
+  
+
+var maxSatisfied = function (customers, grumpy, minutes) {
+
+let res = 0
+
+let total = 0
+
+let curWindowTotal = 0
+
+for (let i = 0 ; i < customers.length ; i++) {
+
+total += grumpy[i] === 0 ? customers[i] : 0
+
+curWindowTotal += customers[i] * grumpy[i]
+
+if (i < minutes - 1) {
+
+continue
+
+}
+
+res = Math.max(curWindowTotal, res)
+
+curWindowTotal -= customers[i - minutes + 1] * grumpy[i - minutes + 1]
+
+}
+
+return total + res
+
+};
+
+// @lc code=end
+```
+
+
 ### **2461. 长度为 k 子数组的最大和**
 
 #leetcode-medium #leetcode-sliding-window

@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "社交属性，究竟满足了谁的身份认同"
             }
+          },
+          {
+            "id": "a2f5a2089c4e20a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ByteNotes/leetcode 复习笔记.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "leetcode 复习笔记"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -200,8 +214,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b416e20796687dbe",
+  "active": "a2f5a2089c4e20a2",
   "lastOpenFiles": [
+    "ByteNotes/个人前端Blog与 Obsidian 同步.md",
     "GAP.md",
     "Murmurs/保持清醒，别把思考交给 AI.md",
     "Murmurs/社交属性，究竟满足了谁的身份认同.md",
@@ -223,7 +238,6 @@
     "Murmurs/📚《刻意练习》.md",
     "Murmurs/📚《为什么我只想呆在家》.md",
     "ByteNotes/leetcode 复习笔记.md",
-    "ByteNotes/个人前端Blog与 Obsidian 同步.md",
     "为什么我醒得早心态就会崩盘.md",
     "现在会有点恐慌.md",
     "HomeAssistant +Raspberry Pi + KNX + HomeKit 集成踩坑记录.md",
