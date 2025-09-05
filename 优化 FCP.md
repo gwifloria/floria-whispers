@@ -8,4 +8,5 @@
 2. Forced reflow
 		a. 
 3. LCP request discovery
+		a. 首屏图片懒加载
 4.   Network dependency tree
