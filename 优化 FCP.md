@@ -8,3 +8,5 @@
 2. LCP request discovery
 		a. 首屏图片懒加载
 ![[Pasted image 20250905184517.png]]![[Pasted image 20250908112050.png]]
+
+![[Pasted image 20250908112731.png]]
