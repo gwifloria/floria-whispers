@@ -13,3 +13,8 @@
 
 
 ![[Pasted image 20250908114238.png]]
+
+
+  
+### Heading elements are not in a sequentially-descending order
+Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).
