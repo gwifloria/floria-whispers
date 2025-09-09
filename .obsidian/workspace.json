@@ -8,77 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9dcbb14dba939032",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GAP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GAP"
-            }
-          },
-          {
-            "id": "27efe149ea0d96ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GPT5 写代码的缺点.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "GPT5 写代码的缺点"
-            }
-          },
-          {
-            "id": "b416e20796687dbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Murmurs/社交属性，究竟满足了谁的身份认同.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "社交属性，究竟满足了谁的身份认同"
-            }
-          },
-          {
-            "id": "a2f5a2089c4e20a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ByteNotes/个人前端Blog与 Obsidian 同步.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "个人前端Blog与 Obsidian 同步"
-            }
-          },
-          {
             "id": "970c72b55f991a82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "优化 FCP.md",
+                "file": "拖延的本质是什么？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "优化 FCP"
+              "title": "拖延的本质是什么？"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
-    "collapsed": true
+    "width": 296.5
   },
   "right": {
     "id": "4b6433b1a2e75e15",
@@ -231,11 +173,21 @@
   },
   "active": "970c72b55f991a82",
   "lastOpenFiles": [
+    "为什么大部分人对全民社保一事那么愤怒？.md",
+    "上海人为什么不愿意生小孩？.md",
+    "庐山游记.md",
+    "2025 行业下行，普通人最需要拥有的能力是什么.md",
+    "Murmurs/保持清醒，别把思考交给 AI.md",
+    "Murmurs/📚《为什么我只想呆在家》.md",
+    "优化 FCP.md",
+    "GAP.md",
+    "GPT5 写代码的缺点.md",
+    "Murmurs/社交属性，究竟满足了谁的身份认同.md",
+    "ByteNotes/个人前端Blog与 Obsidian 同步.md",
     "Pasted image 20250909091839.png",
     "原来日本的老龄化速度比中国慢.md",
     "HomeAssistant +Raspberry Pi + KNX + HomeKit 集成踩坑记录.md",
     "IDK the name.md",
-    "Murmurs/社交属性，究竟满足了谁的身份认同.md",
     "“为什么我们总是陷入‘卷’的怪圈？”.md",
     "《1367》读后感.md",
     "2025-8-20-useState.md",
@@ -246,7 +198,6 @@
     "焦虑.md",
     "拖延的本质是什么？.md",
     "静不下心的本质是什么.md",
-    "优化 FCP.md",
     "Pasted image 20250908132314.png",
     "Pasted image 20250908125603.png",
     "Pasted image 20250908114238.png",
@@ -256,17 +207,8 @@
     "Pasted image 20250905162809.png",
     "Pasted image 20250905161608.png",
     "Pasted image 20250905161556.png",
-    "Pasted image 20250905161554.png",
-    "ByteNotes/个人前端Blog与 Obsidian 同步.md",
     "ByteNotes/leetcode 复习笔记.md",
-    "GAP.md",
-    "Murmurs/保持清醒，别把思考交给 AI.md",
     "回答一年空白期.md",
-    "GPT5 写代码的缺点.md",
-    "Obsidian 编辑博客- submodule 同步到个人网站.md",
-    "2025 行业下行，普通人最需要拥有的能力是什么.md",
-    "每周产出一篇文章、笔记.md",
-    "《3分钟未来日记》.md",
     "未命名.base",
     "Murmurs",
     "ByteNotes",

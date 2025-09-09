@@ -1,4 +1,4 @@
-![[Pasted image 20250905161456.png]]
+
 
 
 
@@ -112,10 +112,10 @@ const nextConfig = {
 ２ LCP request discovery
 		a. 首屏图片懒加载
 	占据首屏较多空间的图片添加ｐｒｉｏｒｉｔｙ属性，
-３.　ａｒｉａ属性
-![[Pasted image 20250905184517.png]]![[Pasted image 20250908112050.png]]
+３.　aria属性
+![[Pasted image 20250908112050.png]]
 
-![[Pasted image 20250908112731.png]]
+
 
 
 ![[Pasted image 20250908114238.png]]
@@ -126,14 +126,14 @@ const nextConfig = {
 Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).
 
 
-![[Pasted image 20250908125603.png]]
 
 
-Layout shift culprits
+
+### Layout shift culprits
 
 Layout shifts occur when elements move absent any user interaction. [Investigate the causes of layout shifts](https://web.dev/articles/optimize-cls?utm_source=lighthouse&utm_medium=devtools), such as elements being added, removed, or their fonts changing as the page loads.CLS
 
-![[Pasted image 20250908132314.png]]
+
 
 
 在整个页面玩
