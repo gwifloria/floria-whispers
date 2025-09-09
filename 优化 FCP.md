@@ -112,6 +112,7 @@ const nextConfig = {
 ２ LCP request discovery
 		a. 首屏图片懒加载
 	占据首屏较多空间的图片添加ｐｒｉｏｒｉｔｙ属性，
+３.　ａｒｉａ属性
 ![[Pasted image 20250905184517.png]]![[Pasted image 20250908112050.png]]
 
 ![[Pasted image 20250908112731.png]]
