@@ -109,8 +109,9 @@ const nextConfig = {
 编写代码时候依旧是 png
 
 ![[Pasted image 20250909091839.png]]
-1. LCP request discovery
+２ LCP request discovery
 		a. 首屏图片懒加载
+	占据首屏较多空间的图片添加ｐｒｉｏｒｉｔｙ属性，
 ![[Pasted image 20250905184517.png]]![[Pasted image 20250908112050.png]]
 
 ![[Pasted image 20250908112731.png]]
