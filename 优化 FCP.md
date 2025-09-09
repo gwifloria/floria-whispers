@@ -28,3 +28,6 @@ Layout shift culprits
 Layout shifts occur when elements move absent any user interaction. [Investigate the causes of layout shifts](https://web.dev/articles/optimize-cls?utm_source=lighthouse&utm_medium=devtools), such as elements being added, removed, or their fonts changing as the page loads.CLS
 
 ![[Pasted image 20250908132314.png]]
+
+
+在整个页面玩
