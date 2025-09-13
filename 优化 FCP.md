@@ -136,4 +136,7 @@ Layout shifts occur when elements move absent any user interaction. [Investigat
 
 
 
-在整个页面玩
+  
+#### Page is blocked from indexing
+
+Search engines are unable to include your pages in search results if they don't have permission to crawl them. [Learn more about crawler directives](https://developer.chrome.com/docs/lighthouse/seo/is-crawlable/?utm_source=lighthouse&utm_medium=devtools).
