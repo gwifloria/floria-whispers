@@ -89,7 +89,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -186,7 +187,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1cb0a87848b48848",
+  "active": "77d2ce8ff2255b50",
   "lastOpenFiles": [
     "优化 FCP.md",
     "申根签证无业办理.md",
