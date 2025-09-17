@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "申根签证无业办理.md",
+                "file": "优化 FCP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "申根签证无业办理"
+              "title": "优化 FCP"
             }
           }
         ],
@@ -89,8 +89,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -187,17 +186,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77d2ce8ff2255b50",
+  "active": "1cb0a87848b48848",
   "lastOpenFiles": [
-    "优化 FCP.md",
+    "小岛经济学读后感.md",
+    "白莲花度假村.md",
+    "每周产出一篇文章、笔记.md",
+    "拖延的本质是什么？.md",
+    "未命名 1.base",
     "申根签证无业办理.md",
+    "优化 FCP.md",
     "上海人为什么不愿意生小孩？.md",
     "谁是好人谁是坏人.md",
     "体态调整 - from chat gpt.md",
-    "拖延的本质是什么？.md",
     "为什么大部分人对全民社保一事那么愤怒？.md",
     "为什么我醒得早心态就会崩盘.md",
-    "白莲花度假村.md",
     "澳门美食.md",
     "2025-8-20-useState.md",
     "2025 行业下行，普通人最需要拥有的能力是什么.md",
@@ -214,8 +216,6 @@
     "IDK the name.md",
     "“为什么我们总是陷入‘卷’的怪圈？”.md",
     "《1367》读后感.md",
-    "跟着灵神学算法.md",
-    "蒋方舟 一寸.md",
     "Pasted image 20250908132314.png",
     "Pasted image 20250908125603.png",
     "Pasted image 20250908114238.png",
