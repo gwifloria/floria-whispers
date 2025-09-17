@@ -43,6 +43,7 @@ bash
 
 ```bash
 # View complete DNS configuration (most important command)
+
 scutil --dns
 
 # Check interface-specific DNS servers
