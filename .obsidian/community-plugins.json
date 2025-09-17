@@ -1,4 +1,6 @@
 [
   "obsidian-git",
-  "obsidian-format-code"
+  "obsidian-format-code",
+  "mcp-tools",
+  "obsidian-local-rest-api"
 ]
