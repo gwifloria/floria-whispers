@@ -23,16 +23,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ByteNotes/用 claudecode 写了个 claudecode 插件.md",
+                "file": "ByteNotes/GPT5 vs Claude Code - 使用体验对比.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "用 claudecode 写了个 claudecode 插件"
+              "title": "GPT5 vs Claude Code - 使用体验对比"
+            }
+          },
+          {
+            "id": "e214d682fa172509",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "为什么旅行要做行程单.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "为什么旅行要做行程单"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -192,10 +206,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2028c61e2ed7b6f0",
+  "active": "e214d682fa172509",
   "lastOpenFiles": [
-    "Z-TechTemp/TBD ClaudeCode + SwiftBar.md",
+    "ByteNotes/GPT5 vs Claude Code - 使用体验对比.md",
+    "为什么旅行要做行程单.md",
     "ByteNotes/用 claudecode 写了个 claudecode 插件.md",
+    "Z-TechTemp/TBD ClaudeCode + SwiftBar.md",
     "Z-TechTemp/HomeAssistant +Raspberry Pi + KNX + HomeKit 集成踩坑记录.md",
     "Z-TechTemp/Floria Wonderland 网站分析.md",
     "Z-TechTemp/Claude Code + SwiftBar 监控系.md",
@@ -222,9 +238,7 @@
     "Z-TechTemp/GPT5 vs Claude Code - 体验对比.md",
     "未命名 1.md",
     "未命名.base",
-    "ByteNotes/GPT5 vs Claude Code - 使用体验对比.md",
     "GPT5 VS ClaudeCode.md",
-    "ByteNotes/leetcode 复习笔记.md",
     "未命名 1.base",
     "Pasted image 20250909091839.png",
     "Pasted image 20250908132314.png",
