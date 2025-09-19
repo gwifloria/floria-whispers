@@ -37,7 +37,19 @@
   "smart_chat_threads": {
     "chat_model": {
       "adapter": "ollama",
-      "ollama": {}
+      "ollama": {
+        "model_key": "undefined",
+        "host": "http://localhost:11434",
+        "models": {
+          "deepseek-r1:latest": {
+            "model_name": "deepseek-r1:latest",
+            "id": "deepseek-r1:latest",
+            "multimodal": false,
+            "max_input_tokens": 131072,
+            "can_use_tools": true
+          }
+        }
+      }
     },
     "active_thread_key": "Untitled Chat 2025-09-17 12-24-13",
     "system_prompt": "",

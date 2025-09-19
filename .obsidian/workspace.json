@@ -11,38 +11,24 @@
             "id": "e0b5c2ef28b2252a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "优化 FCP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "优化 FCP"
-            }
-          },
-          {
-            "id": "feaeb937565838cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "mac-network-diagnose.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "mac-network-diagnose"
-            }
-          },
-          {
-            "id": "c9a283898445ae4c",
-            "type": "leaf",
-            "state": {
-              "type": "smart-chat-view",
+              "type": "empty",
               "state": {},
-              "icon": "smart-chat",
-              "title": "Smart Chat"
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          },
+          {
+            "id": "2028c61e2ed7b6f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Z-TechTemp/TBD ClaudeCode + SwiftBar.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TBD ClaudeCode + SwiftBar"
             }
           }
         ],
@@ -167,27 +153,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mac-network-diagnose.md",
+                "file": "Z-TechTemp/TBD ClaudeCode + SwiftBar.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "mac-network-diagnose 的大纲"
+              "title": "TBD ClaudeCode + SwiftBar 的大纲"
             }
           },
           {
-            "id": "3f03c4d76608efb9",
+            "id": "930023592193418c",
             "type": "leaf",
             "state": {
-              "type": "smart-connections-view",
+              "type": "git-view",
               "state": {},
-              "icon": "smart-connections",
-              "title": "Connections"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -203,42 +189,44 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "zk-prefixer:创建时间戳笔记": false,
-      "obsidian-git:Open Git source control": false,
-      "smart-connections:Open: Smart Chat": false,
-      "smart-connections:Smart Connections: Open connections view": false,
-      "smart-connections:Smart Connections: Open random connection": true
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "feaeb937565838cf",
+  "active": "2028c61e2ed7b6f0",
   "lastOpenFiles": [
-    "macOS Terminal DNS Resolution Troubleshooting.md",
-    "mac-network-diagnose.md",
-    "优化 FCP.md",
-    "HomeAssistant +Raspberry Pi + KNX + HomeKit 集成踩坑记录.md",
-    "小岛经济学读后感.md",
-    "白莲花度假村.md",
-    "每周产出一篇文章、笔记.md",
-    "拖延的本质是什么？.md",
-    "未命名 1.base",
-    "申根签证无业办理.md",
-    "上海人为什么不愿意生小孩？.md",
-    "谁是好人谁是坏人.md",
-    "体态调整 - from chat gpt.md",
-    "为什么大部分人对全民社保一事那么愤怒？.md",
-    "为什么我醒得早心态就会崩盘.md",
-    "澳门美食.md",
-    "2025-8-20-useState.md",
-    "2025 行业下行，普通人最需要拥有的能力是什么.md",
-    "ByteNotes/个人前端Blog与 Obsidian 同步.md",
-    "庐山游记.md",
-    "Murmurs/保持清醒，别把思考交给 AI.md",
-    "Murmurs/📚《为什么我只想呆在家》.md",
-    "GAP.md",
-    "GPT5 写代码的缺点.md",
-    "Murmurs/社交属性，究竟满足了谁的身份认同.md",
-    "Pasted image 20250909091839.png",
-    "原来日本的老龄化速度比中国慢.md",
+    "ByteNotes/用 claudecode 写了个 claudecode 插件.md",
+    "Z-TechTemp/TBD ClaudeCode + SwiftBar.md",
+    "Z-TechTemp/HomeAssistant +Raspberry Pi + KNX + HomeKit 集成踩坑记录.md",
+    "Z-TechTemp/Floria Wonderland 网站分析.md",
+    "Z-TechTemp/Claude Code + SwiftBar 监控系.md",
+    "Z-TechTemp/Claude Code 状态监控完整方案未命名 1.md",
+    "Z-TechTemp/LCP 优化实战指南.md",
+    "未命名.md",
+    "Z-TechTemp/github 展示 gallery.md",
+    "又在被 claude 骗.md",
+    "Z-DiaryTemp/《我才不想做家务》.md",
+    "Z-BookNotes/《1367》读后感.md",
+    "Z-BookNotes",
+    "Z-BookNotes/《3分钟未来日记》.md",
+    "Z-DiaryTemp/“为什么我们总是陷入‘卷’的怪圈？”.md",
+    "未命名 2.md",
+    "Z-DiaryTemp",
+    "test.md",
+    "Z-DiaryTemp/焦虑.md",
+    "Z-DiaryTemp/小岛经济学读后感.md",
+    "Travel",
+    "一个人旅行.md",
+    "Z-TechTemp",
+    "Travel/申根签证无业办理.md",
     "IDK the name.md",
+    "Z-TechTemp/GPT5 vs Claude Code - 体验对比.md",
+    "未命名 1.md",
+    "未命名.base",
+    "ByteNotes/GPT5 vs Claude Code - 使用体验对比.md",
+    "GPT5 VS ClaudeCode.md",
+    "ByteNotes/leetcode 复习笔记.md",
+    "未命名 1.base",
+    "Pasted image 20250909091839.png",
     "Pasted image 20250908132314.png",
     "Pasted image 20250908125603.png",
     "Pasted image 20250908114238.png",
@@ -248,7 +236,6 @@
     "Pasted image 20250905162809.png",
     "Pasted image 20250905161608.png",
     "Pasted image 20250905161556.png",
-    "未命名.base",
     "Murmurs",
     "ByteNotes",
     "读后感"
