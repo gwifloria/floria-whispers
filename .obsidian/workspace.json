@@ -161,19 +161,9 @@
               "icon": "lucide-list",
               "title": "TBD ClaudeCode + SwiftBar 的大纲"
             }
-          },
-          {
-            "id": "930023592193418c",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -192,7 +182,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2028c61e2ed7b6f0",
+  "active": "25df8ee92c00bddd",
   "lastOpenFiles": [
     "ByteNotes/用 claudecode 写了个 claudecode 插件.md",
     "Z-TechTemp/TBD ClaudeCode + SwiftBar.md",
