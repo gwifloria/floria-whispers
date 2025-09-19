@@ -153,13 +153,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Z-TechTemp/TBD ClaudeCode + SwiftBar.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "TBD ClaudeCode + SwiftBar 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -178,8 +177,7 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "zk-prefixer:创建时间戳笔记": false,
-      "obsidian-git:Open Git source control": false
+      "zk-prefixer:创建时间戳笔记": false
     }
   },
   "active": "25df8ee92c00bddd",
