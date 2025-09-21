@@ -37,8 +37,7 @@
               "title": "项目优化"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,10 +199,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0a28814366f13dff",
+  "active": "e214d682fa172509",
   "lastOpenFiles": [
-    "Murmurs/📚《刻意练习》.md",
     "项目优化.md",
+    "Murmurs/📚《刻意练习》.md",
     "ByteNotes/GPT5 vs Claude Code - 使用体验对比.md",
     "ByteNotes/用 claudecode 写了个 claudecode 插件.md",
     "Z-TechTemp/GPT5 vs Claude Code - 体验对比.md",
