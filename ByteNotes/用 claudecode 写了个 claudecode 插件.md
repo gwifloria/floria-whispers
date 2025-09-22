@@ -37,4 +37,5 @@
 
 https://github.com/gwifloria/claude-menubar
 
-(md也是 cc 生成的，持续优化中)
+小红书发布计划：
+[[ClaudeCode]]
