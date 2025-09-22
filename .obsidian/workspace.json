@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Z-TechTemp/项目优化.md",
+                "file": "SocialMedia/ClaudeCode.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "项目优化"
+              "title": "ClaudeCode"
+            }
+          },
+          {
+            "id": "1b29ce9a4ef80aca",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -184,13 +194,15 @@
   },
   "active": "3a28b44006e8473e",
   "lastOpenFiles": [
-    "ByteNotes/用 claudecode 写了个 claudecode 插件.md",
+    "Pasted image 20250922105048.png",
+    "Pasted image 20250922105038.png",
     "SocialMedia/ClaudeCode.md",
+    "Z-TechTemp/项目优化.md",
+    "ByteNotes/用 claudecode 写了个 claudecode 插件.md",
     "Pasted image 20250922102343.png",
     "ByteNotes/个人前端Blog与 Obsidian 同步.md",
     "ByteNotes/GPT5 vs Claude Code - 使用体验对比.md",
     "SocialMedia",
-    "Z-TechTemp/项目优化.md",
     "Z-TechTemp/github 展示 gallery.md",
     "Z-TechTemp/Claude Code + SwiftBar 监控系.md",
     "原来日本的老龄化速度比中国慢.md",
@@ -225,7 +237,6 @@
     "Pasted image 20250908112050.png",
     "Pasted image 20250905184517.png",
     "Pasted image 20250905162809.png",
-    "Pasted image 20250905161608.png",
     "Murmurs",
     "ByteNotes",
     "读后感"
