@@ -36,18 +36,6 @@
             }
           },
           {
-            "id": "493c88153f5ad907",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20250922102343.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250922102343"
-            }
-          },
-          {
             "id": "1b29ce9a4ef80aca",
             "type": "leaf",
             "state": {
@@ -58,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -219,15 +207,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "493c88153f5ad907",
+  "active": "2bd3a1607de25695",
   "lastOpenFiles": [
+    "Pasted image 20250922102343.png",
     "SocialMedia/ClaudeCode 小红书版.md",
     "Pasted image 20250922105851.png",
     "ByteNotes/用 claudecode 写了个 claudecode 插件.md",
     "Pasted image 20250922105048.png",
     "Pasted image 20250922105038.png",
     "Z-TechTemp/项目优化.md",
-    "Pasted image 20250922102343.png",
     "ByteNotes/个人前端Blog与 Obsidian 同步.md",
     "ByteNotes/GPT5 vs Claude Code - 使用体验对比.md",
     "SocialMedia",
