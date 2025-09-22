@@ -8,22 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e214d682fa172509",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Murmurs/📚《刻意练习》.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "📚《刻意练习》"
-            }
-          },
-          {
             "id": "0a28814366f13dff",
             "type": "leaf",
             "state": {
@@ -199,10 +183,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e214d682fa172509",
+  "active": "0a28814366f13dff",
   "lastOpenFiles": [
-    "项目优化.md",
     "Murmurs/📚《刻意练习》.md",
+    "项目优化.md",
     "ByteNotes/GPT5 vs Claude Code - 使用体验对比.md",
     "ByteNotes/用 claudecode 写了个 claudecode 插件.md",
     "Z-TechTemp/GPT5 vs Claude Code - 体验对比.md",
