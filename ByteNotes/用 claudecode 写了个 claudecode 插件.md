@@ -38,4 +38,4 @@
 https://github.com/gwifloria/claude-menubar
 
 小红书发布计划：
-[[ClaudeCode]]
+[[ClaudeCode 小红书版]]
