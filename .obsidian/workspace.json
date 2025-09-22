@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ByteNotes/用 claudecode 写了个 claudecode 插件.md",
+                "file": "Z-TechTemp/项目优化.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "用 claudecode 写了个 claudecode 插件"
-            }
-          },
-          {
-            "id": "da5b6a8fc80cc081",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SocialMedia/ClaudeCode.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ClaudeCode"
+              "title": "项目优化"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,10 +182,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "da5b6a8fc80cc081",
+  "active": "3a28b44006e8473e",
   "lastOpenFiles": [
     "ByteNotes/用 claudecode 写了个 claudecode 插件.md",
     "SocialMedia/ClaudeCode.md",
+    "Pasted image 20250922102343.png",
     "ByteNotes/个人前端Blog与 Obsidian 同步.md",
     "ByteNotes/GPT5 vs Claude Code - 使用体验对比.md",
     "SocialMedia",
@@ -226,7 +212,6 @@
     "Z-TechTemp/Claude Code 状态监控完整方案未命名 1.md",
     "Z-TechTemp/LCP 优化实战指南.md",
     "又在被 claude 骗.md",
-    "Z-DiaryTemp/《我才不想做家务》.md",
     "Z-BookNotes",
     "Z-DiaryTemp",
     "Travel",
@@ -241,7 +226,6 @@
     "Pasted image 20250905184517.png",
     "Pasted image 20250905162809.png",
     "Pasted image 20250905161608.png",
-    "Pasted image 20250905161556.png",
     "Murmurs",
     "ByteNotes",
     "读后感"
