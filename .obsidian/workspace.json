@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3e3de8b04d966375",
+        "id": "d0ce2f7e3fba31db",
         "type": "tabs",
         "children": [
           {
-            "id": "0a28814366f13dff",
+            "id": "3a28b44006e8473e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目优化.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "项目优化"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
-    "collapsed": true
+    "width": 296.5
   },
   "right": {
     "id": "4b6433b1a2e75e15",
@@ -183,10 +178,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0a28814366f13dff",
+  "active": "3a28b44006e8473e",
   "lastOpenFiles": [
-    "Murmurs/📚《刻意练习》.md",
+    "testmd.md",
+    "test.md",
     "项目优化.md",
+    "Murmurs/📚《刻意练习》.md",
     "ByteNotes/GPT5 vs Claude Code - 使用体验对比.md",
     "ByteNotes/用 claudecode 写了个 claudecode 插件.md",
     "Z-TechTemp/GPT5 vs Claude Code - 体验对比.md",
@@ -208,14 +205,12 @@
     "Z-DiaryTemp/“为什么我们总是陷入‘卷’的怪圈？”.md",
     "未命名 2.md",
     "Z-DiaryTemp",
-    "test.md",
     "Z-DiaryTemp/焦虑.md",
     "Z-DiaryTemp/小岛经济学读后感.md",
     "Travel",
     "一个人旅行.md",
     "Z-TechTemp",
     "Travel/申根签证无业办理.md",
-    "IDK the name.md",
     "未命名.base",
     "Pasted image 20250909091839.png",
     "Pasted image 20250908132314.png",
