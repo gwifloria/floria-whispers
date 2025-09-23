@@ -1,5 +1,6 @@
 [
   "obsidian-format-code",
   "obsidian-local-rest-api",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-translator"
 ]

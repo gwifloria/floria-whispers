@@ -5,9 +5,13 @@ We recently [released Claude Code](https://www.anthropic.com/news/claude-3-7-son
 
 
 Claude Code is intentionally low-level and unopinionated, providing close to raw model access without forcing specific workflows. This design philosophy creates a flexible, customizable, scriptable, and safe power tool. While powerful, this flexibility presents a learning curve for engineers new to agentic coding tools—at least until they develop their own best practices.
+
 > unopinionated
+> learning curve 
 
 This post outlines general patterns that have proven effective, both for Anthropic's internal teams and for external engineers using Claude Code across various codebases, languages, and environments. Nothing in this list is set in stone nor universally applicable; consider these suggestions as starting points. We encourage you to experiment and find what works best for you!
+
+>	Nothing in this list is set in stone nor universally applicable; 
 
 _Looking for more detailed information? Our comprehensive documentation at [claude.ai/code](https://claude.ai/redirect/website.v1.8fe251cb-011d-4d72-aab6-6e0d8986091c/code)_ _covers all the features mentioned in this post and provides additional examples, implementation details, and advanced techniques._
 
