@@ -39,14 +39,18 @@
             "id": "1b29ce9a4ef80aca",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ClaudeCode 最佳实践阅读.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "ClaudeCode 最佳实践阅读"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -207,10 +211,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2bd3a1607de25695",
+  "active": "1b29ce9a4ef80aca",
   "lastOpenFiles": [
-    "Murmurs/社交属性，究竟满足了谁的身份认同.md",
+    "ClaudeCode 最佳实践阅读.md",
     "Murmurs/保持清醒，别把思考交给 AI.md",
+    "Murmurs/社交属性，究竟满足了谁的身份认同.md",
     "ByteNotes/用 claudecode 老走神，写了个状态检测防走神.md",
     "SocialMedia/ClaudeCode 小红书版.md",
     "ByteNotes/GPT5 vs Claude Code - 使用体验对比.md",
@@ -231,7 +236,6 @@
     "Z-TechTemp/HomeAssistant +Raspberry Pi + KNX + HomeKit 集成踩坑记录.md",
     "Z-TechTemp/mac-network-diagnose.md",
     "未命名 2.md",
-    "未命名.md",
     "未命名 1.md",
     "未命名 1.base",
     "test.md",
