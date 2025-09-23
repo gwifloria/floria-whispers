@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Murmurs/保持清醒，别把思考交给 AI.md",
+                "file": "VibeCoding：个人小程序.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "保持清醒，别把思考交给 AI"
+              "title": "VibeCoding：个人小程序"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,12 +226,16 @@
       "obsidian-translator:Translate": false
     }
   },
-  "active": "9394fe8dbf191660",
+  "active": "2bd3a1607de25695",
   "lastOpenFiles": [
-    "ClaudeCode 最佳实践阅读.md",
-    "今天聊点啥？.md",
+    "为什么旅行要做行程单.md",
+    "一个人旅行.md",
+    "又在被 claude 骗.md",
+    "原来日本的老龄化速度比中国慢.md",
     "Claude Code Plan Mode 简明指南命名.md",
+    "ClaudeCode 最佳实践阅读.md",
     "Murmurs/保持清醒，别把思考交给 AI.md",
+    "VibeCoding：个人小程序.md",
     "Murmurs/社交属性，究竟满足了谁的身份认同.md",
     "ByteNotes/用 claudecode 老走神，写了个状态检测防走神.md",
     "SocialMedia/ClaudeCode 小红书版.md",
@@ -245,7 +249,6 @@
     "SocialMedia",
     "Z-TechTemp/github 展示 gallery.md",
     "Z-TechTemp/Claude Code + SwiftBar 监控系.md",
-    "原来日本的老龄化速度比中国慢.md",
     "Z-TechTemp/TBD ClaudeCode + SwiftBar.md",
     "Z-TechTemp/Floria Wonderland 网站分析.md",
     "Z-TechTemp/优化 LCP - 整理版.md",
@@ -257,9 +260,6 @@
     "未命名 1.base",
     "test.md",
     "testmd.md",
-    "Murmurs/📚《刻意练习》.md",
-    "Z-TechTemp/GPT5 vs Claude Code - 体验对比.md",
-    "为什么旅行要做行程单.md",
     "Z-BookNotes",
     "Z-DiaryTemp",
     "Travel",
