@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名 1.md",
+                "file": "resume.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名 1"
+              "title": "resume"
             }
           }
         ],
@@ -214,7 +214,7 @@
   "active": "c29d4ec1f3e71131",
   "lastOpenFiles": [
     "简历.md",
-    "未命名 1.md",
+    "resume.md",
     "VibeCoding：个人小程序.md",
     "Review.md",
     "Z-TechTemp/项目优化.md",
