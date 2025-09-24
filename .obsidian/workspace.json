@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -240,10 +240,10 @@
       "obsidian-translator:Translate": false
     }
   },
-  "active": "9394fe8dbf191660",
+  "active": "2bd3a1607de25695",
   "lastOpenFiles": [
-    "Claude Code Plan Mode 简明指南命名.md",
     "Claude Code 的配置.md",
+    "Claude Code Plan Mode 简明指南命名.md",
     "GAP.md",
     "未命名.md",
     "ClaudeCode 最佳实践阅读.md",
