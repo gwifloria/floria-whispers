@@ -103,7 +103,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -211,7 +212,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c29d4ec1f3e71131",
+  "active": "77d2ce8ff2255b50",
   "lastOpenFiles": [
     "简历.md",
     "resume.md",
