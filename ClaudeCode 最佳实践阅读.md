@@ -32,8 +32,12 @@ Claude Code is an agentic coding assistant that automatically pulls context into
 - Developer environment setup (e.g., pyenv use, which compilers work)
 - Any unexpected behaviors or warnings particular to the project
 - Other information you want Claude to remember
-
+- 
+	etiquette礼仪
+	
 There’s no required format for `CLAUDE.md` files. We recommend keeping them concise and human-readable. For example:
+
+	｜>concise简洁
 
 ```javascript
 # Bash commands
