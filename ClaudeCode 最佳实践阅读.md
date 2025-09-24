@@ -1,18 +1,11 @@
 We recently [released Claude Code](https://www.anthropic.com/news/claude-3-7-sonnet), a command line tool for agentic coding. Developed as a research project, Claude Code gives Anthropic engineers and researchers a more native way to integrate Claude into their coding workflows.
 
->	 agentic coding
->	 
-
 
 Claude Code is intentionally low-level and unopinionated, providing close to raw model access without forcing specific workflows. This design philosophy creates a flexible, customizable, scriptable, and safe power tool. While powerful, this flexibility presents a learning curve for engineers new to agentic coding tools—at least until they develop their own best practices.
 
-> unopinionated
-> learning curve 
 
 This post outlines general patterns that have proven effective, both for Anthropic's internal teams and for external engineers using Claude Code across various codebases, languages, and environments. Nothing in this list is set in stone nor universally applicable; consider these suggestions as starting points. We encourage you to experiment and find what works best for you!
 
->	Nothing in this list is set in stone nor universally applicable; 
->	be set in stone 
 
 _Looking for more detailed information? Our comprehensive documentation at [claude.ai/code](https://claude.ai/redirect/website.v1.8fe251cb-011d-4d72-aab6-6e0d8986091c/code)_ _covers all the features mentioned in this post and provides additional examples, implementation details, and advanced techniques._
 
@@ -33,11 +26,11 @@ Claude Code is an agentic coding assistant that automatically pulls context into
 - Any unexpected behaviors or warnings particular to the project
 - Other information you want Claude to remember
 - 
-	etiquette礼仪
+
 	
 There’s no required format for `CLAUDE.md` files. We recommend keeping them concise and human-readable. For example:
 
-	｜>concise简洁
+
 
 ```javascript
 # Bash commands
@@ -65,6 +58,7 @@ When you run the `/init` command, Claude will automatically generate a `CLAUDE.m
 ### b. Tune your `CLAUDE.md` files
 
 Your `CLAUDE.md` files become part of Claude’s prompts, so they should be refined like any frequently used prompt. A common mistake is adding extensive content without iterating on its effectiveness. Take time to experiment and determine what produces the best instruction following from the model.
+
 
 You can add content to your `CLAUDE.md` manually or press the `#` key to give Claude an instruction that it will automatically incorporate into the relevant `CLAUDE.md`. Many engineers use `#` frequently to document commands, files, and style guidelines while coding, then include `CLAUDE.md` changes in commits so team members benefit as well.
 

@@ -48,37 +48,29 @@
               "icon": "lucide-file",
               "title": "ClaudeCode 最佳实践阅读"
             }
-          },
-          {
-            "id": "9394fe8dbf191660",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Claude Code 的配置.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Claude Code 的配置"
-            }
-          },
-          {
-            "id": "2b865d134c1230b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Claude Code 的配置.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Claude Code 的配置"
-            }
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "092c5f4a6811074e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a753ec3d7c8d1c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ClaudeCode 笔记.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ClaudeCode 笔记"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,13 +232,14 @@
       "obsidian-translator:Translate": false
     }
   },
-  "active": "2bd3a1607de25695",
+  "active": "0a753ec3d7c8d1c4",
   "lastOpenFiles": [
+    "ClaudeCode 最佳实践阅读.md",
+    "ClaudeCode 笔记.md",
     "Claude Code 的配置.md",
     "Claude Code Plan Mode 简明指南命名.md",
     "GAP.md",
     "未命名.md",
-    "ClaudeCode 最佳实践阅读.md",
     "claude 进程判断优化.md",
     "ByteNotes/用 claudecode 老走神，写了个状态检测防走神.md",
     "ByteNotes/GPT5 vs Claude Code - 使用体验对比.md",
@@ -272,7 +265,6 @@
     "Z-TechTemp/优化 LCP - 整理版.md",
     "Z-TechTemp/macOS Terminal DNS Resolution Troubleshooting.md",
     "Z-TechTemp/HomeAssistant +Raspberry Pi + KNX + HomeKit 集成踩坑记录.md",
-    "Z-TechTemp/mac-network-diagnose.md",
     "未命名 1.base",
     "Z-BookNotes",
     "Z-DiaryTemp",
