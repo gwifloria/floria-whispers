@@ -50,6 +50,20 @@
             }
           },
           {
+            "id": "24e6c6c1e559fec0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Optimize/daima结构优化建议.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "daima结构优化建议"
+            }
+          },
+          {
             "id": "c29d4ec1f3e71131",
             "type": "leaf",
             "state": {
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -225,11 +239,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c2aee6903f7a8299",
+  "active": "24e6c6c1e559fec0",
   "lastOpenFiles": [
     "Optimize/Claude Code 的配置.md",
-    "Resume.md",
+    "Hook Events Overview.md",
     "Optimize/daima结构优化建议.md",
+    "Resume.md",
     "Optimize",
     "Z-TechTemp/Claude Code + SwiftBar 监控系.md",
     "Z-TechTemp/优化 LCP - 整理版.md",

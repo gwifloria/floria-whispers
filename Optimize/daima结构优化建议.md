@@ -90,3 +90,92 @@
 ---
 
 &gt; 按「高→中→低」顺序迭代，可在 1–2 个 Sprint 内完成主体改造，后续配合 Code Review 流程固化规范。
+
+
+```markdown
+# 项目优化计划
+
+## 1. 类型定义整合优化
+
+### 发现的问题
+- **重复的 ByteNotes/Murmurs 类型定义**：
+  - `src/app/blog/constants.ts` 中定义了 `CatKey = "ByteNotes" | "Murmurs"`
+  - `src/types/blog.ts` 中重复定义了 `category: "ByteNotes" | "Murmurs"`
+  - 多个文件中都有相同的类型引用
+- **分散的类型定义**：
+  - `GitHubItem` 在 `blog/constants.ts` 中定义，但更适合放在 `types/blog.ts` 或 `types/common.ts`
+
+### 优化方案
+1. **统一博客相关类型到 `src/types/blog.ts`**：
+   - 将 `CatKey`, `BlogCategory`, `CateGroup`, `GitHubItem` 移动到 `types/blog.ts`
+   - 更新所有引用这些类型的文件
+2. **其他模块检查**：
+   - 检查 `lab`, `gallery`, `contact`, `letters` 等模块的类型重复情况
+
+## 2. Claude Code 命令配置
+
+### 当前状态
+✅ **已配置完善** - 你的 `.claude/settings.local.json` 配置非常好：
+
+```json
+{
+  "permissions": {
+    "allow": [
+      "Bash(yarn typecheck)", "Bash(yarn lint)",
+      "Bash(yarn test)", "Bash(yarn build)",
+      "Bash(git status)", "Bash(git diff)",
+      "Bash(npm run *)", "Bash(yarn *)"
+    ],
+    "hooks": {
+      "after-edit": "yarn lint --fix && yarn typecheck && yarn test && yarn build",
+      "PostToolUse": {
+        "Edit|Write|MultiEdit": "自动运行代码检查和构建"
+      }
+    }
+  }
+}
+```
+
+### 建议改进
+- 考虑添加 commit 命令权限：`"Bash(git commit -m *)"`
+- 优化 hooks 执行顺序，避免重复运行
+
+## 3. 项目结构优化建议
+
+### 3.1 常量管理优化
+- ✅ **已有良好的 `src/constants/index.ts` 统一导出**
+- **建议**：将模块特定的常量逐步迁移到中心化管理
+
+### 3.2 测试覆盖率提升
+
+#### 当前测试文件：
+- `src/app/tools/useThrottle.test.tsx`
+- `src/services/github.simple.test.ts`
+- `src/app/blog/components/PinControl.test.tsx`
+- `src/components/BugFeedbackButton/BugFeedbackButton.test.tsx`
+
+#### 建议增加测试：
+- **核心 API 路由测试**
+- **关键组件单元测试**
+- **集成测试覆盖**
+
+### 3.3 性能优化机会
+1. **图像优化**：已使用 Next.js Image，但可考虑 blur placeholder
+2. **代码分割**：动态导入非关键组件
+3. **缓存策略**：API 响应缓存优化
+
+### 3.4 代码组织改进
+1. **类型定义集中化**（如上所述）
+2. **共享 utilities 提取**
+3. **组件 props 接口标准化**
+
+## 实施优先级
+
+| 优先级 | 任务 | 影响 |
+|--------|------|------|
+| 🔴 **高** | 类型定义整合 | 减少重复，提高维护性 |
+| 🟡 **中** | 测试覆盖率提升 | 提高代码可靠性 |
+| 🟢 **低** | 性能优化和代码组织改进 | 提升用户体验和开发效率 |
+
+> 这个计划将显著提高代码质量、维护性和开发效率。
+```
