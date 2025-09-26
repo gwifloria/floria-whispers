@@ -225,11 +225,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "baa563987d9f91df",
+  "active": "c2aee6903f7a8299",
   "lastOpenFiles": [
-    "Optimize",
     "Optimize/Claude Code 的配置.md",
+    "Resume.md",
     "Optimize/daima结构优化建议.md",
+    "Optimize",
     "Z-TechTemp/Claude Code + SwiftBar 监控系.md",
     "Z-TechTemp/优化 LCP - 整理版.md",
     "Z-TechTemp/Floria Wonderland 网站分析.md",
@@ -237,7 +238,6 @@
     "Z-TechTemp/github 展示 gallery.md",
     "Z-DiaryTemp/焦虑.md",
     "ByteNotes/GPT5 vs Claude Code - 使用体验对比.md",
-    "Resume.md",
     "简历.md",
     "VibeCoding：个人小程序.md",
     "Review.md",
@@ -271,7 +271,6 @@
     "Pasted image 20250908112731.png",
     "Pasted image 20250908112050.png",
     "Murmurs",
-    "ByteNotes",
-    "读后感"
+    "ByteNotes"
   ]
 }
