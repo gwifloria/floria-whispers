@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "简历.md",
+                "file": "Optimize/Claude Code 的配置.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "简历"
+              "title": "Claude Code 的配置"
+            }
+          },
+          {
+            "id": "c2aee6903f7a8299",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Optimize/daima结构优化建议.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "daima结构优化建议"
             }
           },
           {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -213,36 +227,36 @@
   },
   "active": "baa563987d9f91df",
   "lastOpenFiles": [
+    "Optimize",
+    "Optimize/Claude Code 的配置.md",
+    "Optimize/daima结构优化建议.md",
+    "Z-TechTemp/Claude Code + SwiftBar 监控系.md",
+    "Z-TechTemp/优化 LCP - 整理版.md",
+    "Z-TechTemp/Floria Wonderland 网站分析.md",
+    "Z-TechTemp/GPT5 vs Claude Code - 体验对比.md",
+    "Z-TechTemp/github 展示 gallery.md",
+    "Z-DiaryTemp/焦虑.md",
+    "ByteNotes/GPT5 vs Claude Code - 使用体验对比.md",
     "Resume.md",
     "简历.md",
     "VibeCoding：个人小程序.md",
     "Review.md",
     "Z-TechTemp/项目优化.md",
-    "Z-TechTemp/github 展示 gallery.md",
     "Z-TechTemp/LCP 优化实战指南.md",
     "稳定币监管问题.md",
     "一个人旅行.md",
     "又在被 claude 骗.md",
     "原来日本的老龄化速度比中国慢.md",
     "claude 进程判断优化.md",
-    "Claude Code Plan Mode 简明指南命名.md",
+    "Optimize/Claude Code Plan Mode 简明指南命名.md",
     "ClaudeCode 笔记.md",
-    "ClaudeCode 最佳实践阅读.md",
+    "Optimize/ClaudeCode 最佳实践阅读.md",
     "GAP.md",
-    "ByteNotes/GPT5 vs Claude Code - 使用体验对比.md",
     "ByteNotes/leetcode 复习笔记.md",
-    "ByteNotes/用 claudecode 老走神，写了个状态检测防走神.md",
-    "Claude Code 的配置.md",
-    "未命名.md",
-    "为什么旅行要做行程单.md",
-    "Murmurs/保持清醒，别把思考交给 AI.md",
-    "Murmurs/社交属性，究竟满足了谁的身份认同.md",
-    "SocialMedia/ClaudeCode 小红书版.md",
     "Pasted image 20250922102343.png",
     "Pasted image 20250922105851.png",
     "Pasted image 20250922105048.png",
     "Pasted image 20250922105038.png",
-    "ByteNotes/个人前端Blog与 Obsidian 同步.md",
     "SocialMedia",
     "未命名 1.base",
     "Z-BookNotes",
