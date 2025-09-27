@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "092c5f4a6811074e",
+        "id": "a0c84f1904e32bf7",
         "type": "tabs",
         "children": [
           {
-            "id": "0a753ec3d7c8d1c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VibeCoding：个人小程序.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VibeCoding：个人小程序"
-            }
-          },
-          {
-            "id": "5d22d2e126f7c9b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Optimize/Claude Code 的配置.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Claude Code 的配置"
-            }
-          },
-          {
-            "id": "c2aee6903f7a8299",
+            "id": "dcb6db63d88ab0ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,38 +19,9 @@
               },
               "icon": "lucide-file",
               "title": "daima结构优化建议"
-            }
-          },
-          {
-            "id": "24e6c6c1e559fec0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Optimize/daima结构优化建议.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "daima结构优化建议"
-            }
-          },
-          {
-            "id": "c29d4ec1f3e71131",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resume.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Resume"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -239,35 +182,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "24e6c6c1e559fec0",
+  "active": "dcb6db63d88ab0ed",
   "lastOpenFiles": [
+    "Optimize/Claude Code Plan Mode 简明指南命名.md",
     "Optimize/Claude Code 的配置.md",
-    "Hook Events Overview.md",
-    "Optimize/daima结构优化建议.md",
     "Resume.md",
+    "Z-TechTemp/macOS Terminal DNS Resolution Troubleshooting.md",
+    "Z-TechTemp/github 展示 gallery.md",
+    "Z-TechTemp/GPT5 vs Claude Code - 体验对比.md",
+    "Z-TechTemp/HomeAssistant +Raspberry Pi + KNX + HomeKit 集成踩坑记录.md",
+    "Z-TechTemp/LCP 优化实战指南.md",
+    "Z-TechTemp/优化 LCP - 整理版.md",
+    "Z-TechTemp/项目优化.md",
+    "VibeCoding：个人小程序.md",
+    "claude 进程判断优化.md",
+    "Optimize/daima结构优化建议.md",
+    "Hook Events Overview.md",
     "Optimize",
     "Z-TechTemp/Claude Code + SwiftBar 监控系.md",
-    "Z-TechTemp/优化 LCP - 整理版.md",
     "Z-TechTemp/Floria Wonderland 网站分析.md",
-    "Z-TechTemp/GPT5 vs Claude Code - 体验对比.md",
-    "Z-TechTemp/github 展示 gallery.md",
     "Z-DiaryTemp/焦虑.md",
     "ByteNotes/GPT5 vs Claude Code - 使用体验对比.md",
     "简历.md",
-    "VibeCoding：个人小程序.md",
     "Review.md",
-    "Z-TechTemp/项目优化.md",
-    "Z-TechTemp/LCP 优化实战指南.md",
     "稳定币监管问题.md",
     "一个人旅行.md",
     "又在被 claude 骗.md",
     "原来日本的老龄化速度比中国慢.md",
-    "claude 进程判断优化.md",
-    "Optimize/Claude Code Plan Mode 简明指南命名.md",
     "ClaudeCode 笔记.md",
     "Optimize/ClaudeCode 最佳实践阅读.md",
-    "GAP.md",
-    "ByteNotes/leetcode 复习笔记.md",
     "Pasted image 20250922102343.png",
     "Pasted image 20250922105851.png",
     "Pasted image 20250922105048.png",
