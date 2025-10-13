@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "toMaxiaoling.md",
+                "file": "English Learning/Learning Log/2025-10-Learning-Log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "toMaxiaoling"
+              "title": "2025-10-Learning-Log"
             }
           }
         ],
@@ -211,7 +211,22 @@
   },
   "active": "a913a10cd84fbc5c",
   "lastOpenFiles": [
+    "English Learning/Articles/README.md",
+    "English Learning/README - 英语学习计划.md",
     "toMaxiaoling.md",
+    "English Learning/Learning Log/2025-10-Learning-Log.md",
+    "English Learning/Learning Log",
+    "English Learning/Tools & Tips.md",
+    "English Learning/Articles",
+    "English Learning/Fiction/Flatland.md",
+    "English Learning/Fiction",
+    "English Learning/Vocabulary/2025-10-vocabulary.md",
+    "English Learning/Vocabulary",
+    "English Learning/Templates/Article Reading Template.md",
+    "English Learning/Templates/Fiction Reading Template.md",
+    "English Learning/Templates",
+    "English Learning/Fiction Reading List.md",
+    "English Learning",
     "Murmurs/知识是起点，不是终点：从快速汲取到深度沉浸.md",
     "Resume.md",
     "GAP.md",
@@ -229,15 +244,6 @@
     "claude 进程判断优化.md",
     "Hook Events Overview.md",
     "Optimize",
-    "Z-TechTemp/Claude Code + SwiftBar 监控系.md",
-    "Z-TechTemp/Floria Wonderland 网站分析.md",
-    "Z-DiaryTemp/焦虑.md",
-    "ByteNotes/GPT5 vs Claude Code - 使用体验对比.md",
-    "简历.md",
-    "Review.md",
-    "稳定币监管问题.md",
-    "一个人旅行.md",
-    "又在被 claude 骗.md",
     "Pasted image 20250922102343.png",
     "Pasted image 20250922105851.png",
     "Pasted image 20250922105048.png",
@@ -245,17 +251,11 @@
     "SocialMedia",
     "未命名 1.base",
     "Z-BookNotes",
-    "Z-DiaryTemp",
-    "Travel",
-    "Z-TechTemp",
-    "未命名.base",
     "Pasted image 20250909091839.png",
     "Pasted image 20250908132314.png",
     "Pasted image 20250908125603.png",
     "Pasted image 20250908114238.png",
     "Pasted image 20250908112731.png",
-    "Pasted image 20250908112050.png",
-    "Murmurs",
-    "ByteNotes"
+    "Pasted image 20250908112050.png"
   ]
 }
