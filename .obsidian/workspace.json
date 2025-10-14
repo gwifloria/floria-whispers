@@ -11,10 +11,14 @@
             "id": "019ef88bfe4dcd51",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "10.14 优化日志.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "10.14 优化日志"
             }
           }
         ]
@@ -180,6 +184,7 @@
   },
   "active": "019ef88bfe4dcd51",
   "lastOpenFiles": [
+    "10.14 优化日志.md",
     "ByteNotes/个人前端Blog与 Obsidian 同步.md",
     "Z-BookNotes/《3分钟未来日记》.md",
     "Z-DiaryTemp/小岛经济学读后感.md",
@@ -200,7 +205,6 @@
     "未命名 2.md",
     "ClaudeCode 笔记.md",
     "原来日本的老龄化速度比中国慢.md",
-    "未命名.md",
     "Templates",
     "English Learning/Fiction/未命名.md",
     "English Learning/Templates/Fiction Reading Template.md",
