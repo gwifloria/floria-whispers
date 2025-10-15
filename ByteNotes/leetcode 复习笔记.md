@@ -3,7 +3,45 @@
 
 ### **3652按策略买卖股票的最佳时机**
 1. 前缀和
+计算[i, i + k] 的 delta 变化
+维护两个前缀和数组，一个数组是策略前缀和，一个数组是纯 price 前缀和
+```typescript
+function maxProfit(prices: number[], strategy: number[], k: number): number {
 
+	const n = prices.length
+	
+	const sumPrefix = new Array(n + 1).fill(0)
+	
+	const pricePrefix = new Array(n + 1).fill(0)
+	
+	let max = 0
+
+	for (let i = 0; i < n; i++ ){
+	
+		sumPrefix[i + 1] = sumPrefix[i] + prices[i] * strategy[i]
+		
+		pricePrefix[i + 1] = prices[i] + pricePrefix[i]
+	
+	}
+
+	for (let i = 0 ; i <= n - k; i ++ ){
+	
+		const diffSufHalf = pricePrefix[i + k] - pricePrefix[i + k/2] - (sumPrefix[i + k] - sumPrefix[i + k/2])
+		
+		  
+		
+		const diffPreHalf = - (sumPrefix[i + k/2] - sumPrefix[i])
+		
+		const delata = diffSufHalf + diffPreHalf
+		
+		max = Math.max(delata, max)
+	
+	}
+
+	return sumPrefix[n] + max
+
+};
+```
 
 2. 滑窗
 虽然前缀和容易，滑窗没那么好写，但是感觉比起leetcode 上面的刷题数目，不如好好吃透一题
@@ -11,7 +49,7 @@
 ### **1052爱生气的书店老板**
  没做出来，看的灵神解析
  统计不生气时的顾客数量，以及找到固定窗口长度内不生气的顾客数量的最大值
-```
+```typescript
 /*
 
 * @lc app=leetcode.cn id=1052 lang=javascript
