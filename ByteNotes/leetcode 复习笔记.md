@@ -10,39 +10,19 @@ let ans = 0
 
 let left = 0
 
-  
-
-while (left < s.length) {
-
 const m = new Map()
 
-m.set(s[left],left)
+for (let right = 0; right < s.length; right++ ) {
 
-ans = Math.max(1, ans)
+if(m.has(s[right]) && m.get(s[right]) >= left){
 
-let right = left + 1
+left = m.get(s[right]) + 1
 
-while (right < s.length) {
-
-if (!m.has(s[right])){
+}
 
 m.set(s[right], right)
 
 ans = Math.max(ans, right - left + 1)
-
-}else {
-
-m.clear()
-
-break
-
-}
-
-right ++
-
-}
-
-left ++
 
 }
 
