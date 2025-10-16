@@ -11,10 +11,14 @@
             "id": "09c162f3a951524c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Z-DiaryTemp/测试.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "测试"
             }
           }
         ]
@@ -180,7 +184,10 @@
   },
   "active": "09c162f3a951524c",
   "lastOpenFiles": [
+    "Z-DiaryTemp/测试 echo 同.md",
+    "Z-DiaryTemp/“为什么我们总是陷入‘卷’的怪圈？”.md",
     "Z-DiaryTemp/测试.md",
+    "Z-DiaryTemp/白莲花度假村.md",
     "Z-DiaryTemp/未命名.md",
     "GAP.md",
     "ByteNotes/leetcode 复习笔记.md",
@@ -195,7 +202,6 @@
     "Z-DiaryTemp/《我才不想做家务》.md",
     "Z-DiaryTemp/每周产出一篇文章、笔记.md",
     "Z-DiaryTemp/2025 行业下行，普通人最需要拥有的能力是什么.md",
-    "Z-DiaryTemp/“为什么我们总是陷入‘卷’的怪圈？”.md",
     "简历.md",
     "为什么旅行要做行程单.md",
     "VibeCoding：个人小程序.md",
@@ -204,9 +210,7 @@
     "一个人旅行.md",
     "未命名 2.md",
     "ClaudeCode 笔记.md",
-    "原来日本的老龄化速度比中国慢.md",
     "Templates",
-    "English Learning/Fiction/未命名.md",
     "English Learning/Learning Log",
     "English Learning/Articles",
     "English Learning/Fiction",
