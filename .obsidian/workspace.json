@@ -11,10 +11,14 @@
             "id": "09c162f3a951524c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Z-DiaryTemp/未命名.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "未命名"
             }
           }
         ]
@@ -180,6 +184,7 @@
   },
   "active": "09c162f3a951524c",
   "lastOpenFiles": [
+    "Z-DiaryTemp/未命名.md",
     "GAP.md",
     "ByteNotes/leetcode 复习笔记.md",
     "10.14 优化日志.md",
@@ -206,7 +211,6 @@
     "Templates",
     "English Learning/Fiction/未命名.md",
     "English Learning/Templates/Fiction Reading Template.md",
-    "English Learning/Templates/Article Reading Template.md",
     "English Learning/Learning Log",
     "English Learning/Articles",
     "English Learning/Fiction",
