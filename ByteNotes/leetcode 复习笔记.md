@@ -2,7 +2,54 @@
 
 ## **滑动窗口 Sliding Window**
 ### **3无重复字符的最长子串**
-这题以前做过，从 index = 0 开始去左出右进
+这题以前做过，直接暴力用了两个 while，时间复杂度和空间复杂度都是 O（n)
+```typescript
+function lengthOfLongestSubstring(s: string): number {
+
+let ans = 0
+
+let left = 0
+
+  
+
+while (left < s.length) {
+
+const m = new Map()
+
+m.set(s[left],left)
+
+ans = Math.max(1, ans)
+
+let right = left + 1
+
+while (right < s.length) {
+
+if (!m.has(s[right])){
+
+m.set(s[right], right)
+
+ans = Math.max(ans, right - left + 1)
+
+}else {
+
+m.clear()
+
+break
+
+}
+
+right ++
+
+}
+
+left ++
+
+}
+
+return ans
+
+};
+```
 
 ### **3652按策略买卖股票的最佳时机**
 1. 前缀和
