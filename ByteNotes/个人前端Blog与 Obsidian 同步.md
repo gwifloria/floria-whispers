@@ -53,7 +53,6 @@ Obsidian 的 Git 同步功能大家都知道，我在做个人网站的时候发
 
 ### 系统架构
 
-an'z
 ```mermaid
 graph TB
     A[Obsidian 本地编辑] --> B[Obsidian Git 插件]
