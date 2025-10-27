@@ -1,5 +1,34 @@
 ## 双指针？
+1493
+```typescript
+function longestSubarray(nums: number[]): number {
 
+let left = 0;
+
+let ans = 0
+
+let cnt = 0
+
+for (let right = 0; right < nums.length; right++) {
+
+cnt += 1 - nums[right]
+
+while (cnt > 1) {
+
+cnt-= 1 - nums[left]
+
+left ++
+
+}
+
+ans = Math.max(ans, right - left)
+
+}
+
+return ans
+
+};
+```
 ## **滑动窗口 Sliding Window**
 ### **3无重复字符的最长子串**
 这题以前做过，直接暴力用了两个 while，时间复杂度和空间复杂度都是 O（n)
