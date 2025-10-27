@@ -1,33 +1,33 @@
 ## 双指针？
-1493
+## [1493. 删掉一个元素以后全为 1 的最长子数组](https://leetcode.cn/problems/longest-subarray-of-1s-after-deleting-one-element/)
 ```typescript
 function longestSubarray(nums: number[]): number {
 
-let left = 0;
+	let left = 0;
+	
+	let ans = 0
+	
+	let cnt = 0
 
-let ans = 0
+	for (let right = 0; right < nums.length; right++) {
+	
+		cnt += 1 - nums[right]
+		
+			while (cnt > 1) {
+			
+			cnt-= 1 - nums[left]
+			
+			left ++
+		
+		}
 
-let cnt = 0
+	ans = Math.max(ans, right - left)
 
-for (let right = 0; right < nums.length; right++) {
+	}
 
-cnt += 1 - nums[right]
+	return ans
 
-while (cnt > 1) {
-
-cnt-= 1 - nums[left]
-
-left ++
-
-}
-
-ans = Math.max(ans, right - left)
-
-}
-
-return ans
-
-};
+	};
 ```
 ## **滑动窗口 Sliding Window**
 ### **3无重复字符的最长子串**
