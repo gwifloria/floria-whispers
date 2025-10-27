@@ -86,8 +86,6 @@ AI在"打工"时我们经常无事可做 😅
 
 > 📸 **配图6建议**：使用前后对比图 - 效率提升数据可视化
 
-**GitHub开源地址：** github.com/gwifloria/claude-menubar
-
 ---
 
 ## 💬 互动环节

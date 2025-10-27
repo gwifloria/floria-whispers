@@ -62,7 +62,7 @@ AI在"打工"时我们经常无事可做 😅
 - ✅ 提高编程专注度
 - ✅ 时间利用更高效
 
-**GitHub开源地址：** github.com/gwifloria/claude-menubar
+**GitHub开源地址：** github.com/gwifloria/claude-monitor
 
 ---
 
