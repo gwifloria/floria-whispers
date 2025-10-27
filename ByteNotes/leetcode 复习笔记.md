@@ -1,7 +1,7 @@
 
 ## [3634. 使数组平衡的最少移除数目](https://leetcode.cn/problems/minimum-removals-to-balance-array/)
  这道题删除的数据一定是最大或最小，所以优先根据大小进行排序，删除两端数据即可
- 
+ 最后期望的是删除最少的次数，那我们就去计算一个最大窗口
 ## [1493. 删掉一个元素以后全为 1 的最长子数组](https://leetcode.cn/problems/longest-subarray-of-1s-after-deleting-one-element/)
 ```typescript
 function longestSubarray(nums: number[]): number {
