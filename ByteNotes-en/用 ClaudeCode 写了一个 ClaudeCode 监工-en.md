@@ -14,4 +14,5 @@ No matter AI tools or human beings, when we are informed with the demands or pro
 
 Many people would say that when we are waiting for AI completing it's work, we can grab a coffee ,take a cup of tea or doing something else.
 
-But do we 
+But do we have so many things to deal with? how many cups of coffee do we drink a day?
+AI is supposed to improve our proficiency but how about now? Many people spend their time on social media 
