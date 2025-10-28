@@ -1,0 +1,5 @@
+As a frontend developer, it's somewhat embarrassing to admit that I haven't established my own website until recently. The reason for this delay wasn't a lack of technical know-how, but rather uncertainty about the approach.
+
+I've long been accustomed to taking notes in Obsidian. When contemplating publishing my blog on a personal website, my initial instinct was to build a comprehensive solution—complete with a text editor, database, APIs, and all the associated infrastructure. Moreover, I needed to account for synchronization, given how frequently one revises their writing, made all the more convenient by modern computing.
+
+Since Obsidian is qualified with git pluguin which enables users to sync . I found that Git can also play a role of storing files. It occurs to me that my own website can fetch the repository of obsidian. 
