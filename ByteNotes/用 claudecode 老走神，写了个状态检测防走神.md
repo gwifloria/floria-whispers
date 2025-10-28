@@ -115,8 +115,3 @@ ClaudeCode 监控器与 ClaudeCode 的内置 hooks 系统无缝集成：
 **项目地址**：github.com/gwifloria/claude-monitor
 **适用平台**：macOS  
 **开源协议**：MIT
-
-
----
-
-**注意**：此工具设计为完全无干扰。如果监控系统发生任何错误，它们永远不会影响 ClaudeCode 的操作。监控器会优雅且安静地失败。
