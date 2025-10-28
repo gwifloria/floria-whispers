@@ -16,3 +16,9 @@ Many people would say that when we are waiting for AI completing it's work, we c
 
 But do we have so many things to deal with? how many cups of coffee do we drink a day?
 AI is supposed to improve our proficiency but how about now? Many people spend their time on social media 
+When we rely on AI too much, are we getting smarter or dumper?
+
+Social media and shortcut have stolen many people's attraction and the ability to think deeply, we are overwhelmed with information which we may not need. 
+So, how can we take back the lead to dominate our thoughts rather than manipulated by AI tools?
+
+ClaudeCode provideds the hooks function which enables users to develop or config something personal such as notification 
