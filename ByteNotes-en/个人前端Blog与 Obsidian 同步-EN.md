@@ -4,16 +4,20 @@ I've long been accustomed to taking notes in Obsidian. When contemplating publis
 
 Since Obsidian is equipped with a Git plugin, it allows users to sync Markdown files effortlessly after configuring their Git account correctly. I realized that Git can also serve as a means of storing files. This led me to the idea that my personal website could fetch the repository from Obsidian.
 Specificly，
-- i Still write in Obsidian
-- Git plugin of Obsidian sync Files to GitHub automatically
-- Website fetch the Github Repo File 
+- I still write in Obsidian.
+    
+- The Git plugin in Obsidian automatically syncs files to GitHub.
+    
+- My website fetches the files from the GitHub repository.
+    
 
-No worry for synchronization
-No Effort for Data Storage and Apis 
-No Need to Shift Writing Habits
+No need to worry about synchronization.  
+No effort required for data storage or APIs.  
+No change in my writing habits.
 
-Simply
-Obsidian is still my notebook
-Git is the tunnel
-My own Website is just my gallery
+In short,  
+Obsidian remains my notebook,  
+Git is the tunnel,  
+and my website is simply my gallery.
 
+Perfect i
