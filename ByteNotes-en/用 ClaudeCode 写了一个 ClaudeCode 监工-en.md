@@ -8,17 +8,22 @@ Yet, unexpectedly, a new problem emerged.
 When ClaudeCode is fully engaged in the process, I often find myself at a loss — uncertain what to do while it works.  
 More often than not, I end up idly scrolling through my phone, drifting from one app to another.
 
-No matter AI tools or human beings, when we are informed with the demands or production file, we both should think deeply
-1. understand the requirements
-2. looking for solutions to solve the problems
+No matter whether it’s AI tools or human beings, when we receive a set of requirements or a production file, we should both take time to think deeply:
 
-Many people would say that when we are waiting for AI completing it's work, we can grab a coffee ,take a cup of tea or doing something else.
+1. to understand the true intent behind the demands,
+    
+2. and to explore possible solutions to the problems.
+    
 
-But do we have so many things to deal with? how many cups of coffee do we drink a day?
-AI is supposed to improve our proficiency but how about now? Many people spend their time on social media 
-When we rely on AI too much, are we getting smarter or dumper?
+Many would say that while waiting for AI to finish its work, we can grab a coffee, have a cup of tea, or simply do something else.  
+But do we really have that much to do?  
+How many cups of coffee can we drink in a day?
 
-Social media and shortcut have stolen many people's attraction and the ability to think deeply, we are overwhelmed with information which we may not need. 
-So, how can we take back the lead to dominate our thoughts rather than manipulated by AI tools?
+AI is supposed to enhance our efficiency — but has it, really?  
+More and more people spend their “saved time” scrolling through social media.  
+When we rely too heavily on AI, are we becoming smarter, or duller?
 
+Social media and shortcuts have stolen much of our attention — and with it, our ability to think deeply.  
+We are flooded with information we don’t truly need.  
+So how can we reclaim the initiative — to **lead our own thoughts**, rather than being **led and shaped** by the very tools we created?
 ClaudeCode provideds the hooks function which enables users to develop or config something personal such as notification 
