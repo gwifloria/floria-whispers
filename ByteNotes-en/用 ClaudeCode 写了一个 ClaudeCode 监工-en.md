@@ -32,4 +32,7 @@ But i believe many people's electronic devices have always been muted
 So What enlightened me?
 When i was using clashX, the uploading & downloading statistics flashes all the time which distract me from focusing on my own job . So Should AI distract me from surfing on the internet to go back to focus on the job I asked ai todo . When it finished its' job, it's time for me to continue to give orders
 
+Solutions
+When claude is Working(maybe is searching,writing, or editing), 
+
 

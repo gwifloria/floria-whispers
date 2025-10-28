@@ -30,7 +30,8 @@ ClaudeCode 官方提供了 Hooks，他的 demo 里也提供了 Notification，�
 在它空闲时提醒我：继续思考，让它开始工作、检阅它生成的代码或想法。
 
 ## 实现方案：让Claude帮我写监控Claude的工具
-实现的最终效果为：
+Claude提议了Swiftbar用来做菜单栏的展示工具，另外自己写脚本去控制 swiftbar 的展示状态
+
 1. 当 ClaudeCode正在工作（可能是在 searching、writing、editing 等等众多不需要人为介入的时候），显示loading 动画表示正在处理
 2. 显示⚠️告诉用户需要确认下一步动作
 3. 显示☑️表示任务完成。
