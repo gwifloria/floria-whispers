@@ -26,4 +26,10 @@ When we rely too heavily on AI, are we becoming smarter, or duller?
 Social media and shortcuts have stolen much of our attention — and with it, our ability to think deeply.  
 We are flooded with information we don’t truly need.  
 So how can we reclaim the initiative — to **lead our own thoughts**, rather than being **led and shaped** by the very tools we created?
+
 ClaudeCode provideds the hooks function which enables users to develop or config something personal such as notification 
+But i believe many people's electronic devices have always been muted 
+So What enlightened me?
+When i was using clashX, the uploading & downloading statistics flashes all the time which distract me from focusing on my own job . So Should AI distract me from surfing on the internet to go back to focus on the job I asked ai todo . When it finished its' job, it's time for me to continue to give orders
+
+
