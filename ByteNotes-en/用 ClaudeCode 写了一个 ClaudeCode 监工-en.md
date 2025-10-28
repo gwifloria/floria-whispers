@@ -35,5 +35,13 @@ When i was using clashX, the uploading & downloading statistics flashes all the 
 Solutions
 When claude is Working(maybe is searching,writing, or editing), swiftbar display a loading animation which means in progress——there's no need for users to rapidly switch to terminal to check the working progress
 when claudecode is waiting for users' confirmation before some dangerous steps, swiftbar displays ⚠️ to attract attention
-when a task is completed, 
+when a task is completed, displays
+
+| 图标     | 状态                   | 描述                                                                              |
+| ------ | -------------------- | ------------------------------------------------------------------------------- |
+| ⚠️     | **needs attention ** | s waiting for users' confirmation before some dangerous steps(highest priority) |
+| ⠇⠦⠴⠸⠙⠋ | **in progress**      |                                                                                 |
+| ✅      | **completed**        |                                                                                 |
+| 💤     | **idle**             | waiting for orders                                                              |
+|        |                      |                                                                                 |
 
