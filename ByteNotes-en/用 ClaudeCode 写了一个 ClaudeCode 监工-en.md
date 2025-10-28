@@ -33,7 +33,7 @@ So What enlightened me?
 When i was using clashX, the uploading & downloading statistics flashes all the time which distract me from focusing on my own job . So Should AI distract me from surfing on the internet to go back to focus on the job I asked ai todo . When it finished its' job, it's time for me to continue to give orders
 
 Solutions
-When claude is Working(maybe is searching,writing, or editing), swiftbar display a loading animation which means in progress so that there's no need for users to rapidly switch to terminal to check the working progress
+When claude is Working(maybe is searching,writing, or editing), swiftbar display a loading animation which means in progress——there's no need for users to rapidly switch to terminal to check the working progress
 when claudecode is waiting for users' confirmation before some dangerous steps, swiftbar displays ⚠️ to attract attention
 when a task is completed, 
 
