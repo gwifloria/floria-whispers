@@ -27,17 +27,24 @@ Social media and shortcuts have stolen much of our attention — and with it, ou
 We are flooded with information we don’t truly need.  
 So how can we reclaim the initiative — to **lead our own thoughts**, rather than being **led and shaped** by the very tools we created?
 
-ClaudeCode is equipped with the hooks function which enables users to develop or config something personal such as notification 
-But i believe many people's electronic devices have always been muted 
-So What enlightened me?
-When i was using clashX, the uploading & downloading statistics flashes all the time which distract me from focusing on my own job . So Should AI distract me from surfing on the internet to go back to focus on the job I asked ai todo . When it finished its' job, it's time for me to continue to give orders
+ClaudeCode comes equipped with a _hooks_ feature that allows users to develop or configure personalized functions — such as custom notifications.  
+However, I believe that for many people, their devices are permanently muted.
 
-Solutions
+So what inspired me?  
+When I was using ClashX, the constantly flashing upload and download statistics often distracted me from focusing on my actual work.  
+That led me to wonder: **shouldn’t AI distract me from surfing the internet — and instead, help me refocus on the tasks I asked it to do?**  
+When it finishes its job, that’s the moment for me to step back in and give the next instruction.
+### 💡 Proposed Solution
 
-When claude is Working(maybe is searching,writing, or editing),
-swiftbar display a loading animation which means in progress,after user UserPromptSubmit——there's no need for users to rapidly switch to terminal to check the working progress
-when claudecode is waiting for users' confirmation before some dangerous steps,theNotification hooks triggered to tell the users to pay attention.swiftbar displays ⚠️ 
-when a task is completed, displays✅ to inform users: it's time to check the job
+- **When ClaudeCode is working** (e.g. searching, writing, or editing):  
+    SwiftBar displays a subtle loading animation to indicate that the process is in progress.  
+    After the user submits a prompt, there’s no need to switch rapidly to the terminal just to check its status.
+    
+- **When ClaudeCode is waiting for user confirmation** before executing potentially risky actions:  
+    The _notification hook_ is triggered to alert the user, and SwiftBar shows a ⚠️ symbol.
+    
+- **When a task is completed:**  
+    SwiftBar displays a ✅ to notify the user that the job is done — it’s time to review the results.
 
 | 图标     | 状态                   | 描述                                                                              |
 | ------ | -------------------- | ------------------------------------------------------------------------------- |
