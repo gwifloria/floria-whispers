@@ -50,7 +50,7 @@ When it finishes its job, that’s the moment for me to step back in and give th
 | ------ | -------------------- | ------------------------------------------------------------------------------- |
 | ⚠️     | **needs attention ** | s waiting for users' confirmation before some dangerous steps(highest priority) |
 | ⠇⠦⠴⠸⠙⠋ | **in progress**      |                                                                                 |
-| ✅      | **completed**        | 任务完成，准备查看                                                                       |
+| ✅      | **completed**        | Check The Job                                                                   |
 | 💤     | **idle**             | waiting for orders                                                              |
 |        |                      |                                                                                 |
 
