@@ -97,7 +97,6 @@ ClaudeCode 监控器与 ClaudeCode 的内置 hooks 系统无缝集成：
 1. `UserPromptSubmit` hook 触发 → 更新状态为 **⠇ 处理中**
 2. SwiftBar 每 1 秒读取状态 → 显示动画旋转器
 3. Claude 完成 → `Stop` hook 触发 → 状态变为 **✅ 已完成**
-4. 你开始新任务 → 状态返回 **💤 空闲**
 
 **当 Claude 需要确认时：**
 1. `Notification` hook 触发 → 状态跳转到 **⚠️ 需要注意**（最高优先级）
