@@ -41,7 +41,7 @@ when a task is completed, displays
 | ------ | -------------------- | ------------------------------------------------------------------------------- |
 | ⚠️     | **needs attention ** | s waiting for users' confirmation before some dangerous steps(highest priority) |
 | ⠇⠦⠴⠸⠙⠋ | **in progress**      |                                                                                 |
-| ✅      | **completed**        |                                                                                 |
+| ✅      | **completed**        | 任务完成，准备查看                                                                       |
 | 💤     | **idle**             | waiting for orders                                                              |
 |        |                      |                                                                                 |
 
