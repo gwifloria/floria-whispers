@@ -46,11 +46,11 @@ When it finishes its job, that’s the moment for me to step back in and give th
 - **When a task is completed:**  
     SwiftBar displays a ✅ to notify the user that the job is done — it’s time to review the results.
 
-| 图标     | 状态                   | 描述                                                                              |
-| ------ | -------------------- | ------------------------------------------------------------------------------- |
-| ⚠️     | **needs attention ** | s waiting for users' confirmation before some dangerous steps(highest priority) |
-| ⠇⠦⠴⠸⠙⠋ | **in progress**      |                                                                                 |
-| ✅      | **completed**        | Check The Job                                                                   |
-| 💤     | **idle**             | waiting for orders                                                              |
-|        |                      |                                                                                 |
+| 图标     | 状态                  | 描述                                                                              |
+| ------ | ------------------- | ------------------------------------------------------------------------------- |
+| ⚠️     | **needs attention** | s waiting for users' confirmation before some dangerous steps(highest priority) |
+| ⠇⠦⠴⠸⠙⠋ | **in progress**     |                                                                                 |
+| ✅      | **completed**       | Check The Job                                                                   |
+| 💤     | **idle**            | waiting for orders                                                              |
+|        |                     |                                                                                 |
 
