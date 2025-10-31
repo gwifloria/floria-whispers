@@ -15,6 +15,6 @@ I think this kind of anxiety is universal—it doesn't matter what your national
 
 This whole approach brought me nothing but stress because I wasn't enjoying the learning process. Maybe I valued the outcome too much, wanting to skip straight to the end result. Or perhaps I convinced myself that the journey wasn't as important as the destination. But actually, the process is what truly matters—it's where the real learning happens.
 
-I've read quite a few books lately, ranging from philosophy and social sciences to software architecture, trying to find better approaches to learning and growth.
+I've read quite a few books lately, ranging from philosophy and social sciences to literature, trying to find better approaches to learning and growth.
 What's study means to Everybody
 I found 
