@@ -17,4 +17,4 @@ This whole approach brought me nothing but stress because I wasn't enjoying the 
 
 I've read quite a few books lately, ranging from philosophy and social sciences to literature, trying to find better approaches to learning and growth.
 
-Keep learning is a subject that I've been thinking about. I started rebuild my learning system.Day planning and Review is a good  
+Keep learning is a life-long subject. I started rebuild my learning system.Day planning and Review is a g
