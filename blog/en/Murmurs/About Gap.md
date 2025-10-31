@@ -1,9 +1,13 @@
-When I was preparing the review past times. a blog is a plus on the resume 
-But i found it meaningless to build a website since there are various blog website or editors which enables users to write airticles conveniently. So If I would like to build a blog website, what outstanding meanings can I 赋能it so that is can be an an interesting website rather than a resume tag
 
-What's more
-I don't know how to design a website,I don't know what to else besides blog
-Most of the examples can not interest me 
+**Optimized Version:**
 
-But I have to say, AI Tool does a lot of favor for me. It provides me a lot of inspirations ranging from color to functions. 
+When I was preparing for job reviews in the past, I noticed that having a personal blog was always a plus on people's resumes. But honestly, I began questioning whether building my own website really made sense. After all, there are countless blogging platforms and editors out there that make writing and publishing  convenient. So if I'm going to build a blog website, what unique value could I bring to it? How can I make it something genuinely interesting rather than just another resume checkbox?
 
+What's more, I have to admit I'm not a web designer. I don't really know what else to add beyond the basic blog functionality. Most examples I've seen online don't particularly inspire me—they all feel rather similar.
+
+But here's where things get interesting: AI tools have been remarkably helpful. They've given me tons of inspiration, from color palettes to feature suggestions. It's like having a creative partner who helps fill in the gaps in my vision.
+
+I found myself less confident these years compared to the time when i graduated from college. The reason accounts for it is perhaps the more i  have leaned ,the more lack of knowledge I found myself are.
+So I found anxious when i was preparing interviews since I found myself so much need to learn that i have no idea where to start
+
+I always set  unachievable goal like "build your own react in one day". These kinds of goals are too 
