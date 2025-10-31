@@ -10,4 +10,5 @@ But here's where things get interesting: AI tools have been remarkably helpful. 
 I found myself less confident these years compared to the time when i graduated from college. The reason accounts for it is perhaps the more i  have leaned ,the more lack of knowledge I found myself are.
 So I found anxious when i was preparing interviews since I found myself so much need to learn that i have no idea where to start
 
-I always set  unachievable goal like "build your own react in one day". These kinds of goals are too 庞大 which may prevent you from starting. ADHD is a common problem among people, no matter where your nationality is or what's your age. Anxierty is also a problem . People will shift to doing something easily to comfort themselves when they feel 无所适从 about this kind  
+I always set  unachievable goal like "build your own react in one day". These kinds of goals are too 庞大 which may prevent you from starting. ADHD is a common problem among people, no matter where your nationality is or what's your age. Anxierty is also a problem . People will shift to doing something easily to comfort themselves when they feel 无所适从 about this kind of huge project
+
