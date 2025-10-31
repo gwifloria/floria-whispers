@@ -7,14 +7,14 @@ What's more, I have to admit I'm not a web designer. I don't really know what el
 
 But here's where things get interesting: AI tools have been remarkably helpful. They've given me tons of inspiration, from color palettes to feature suggestions. It's like having a creative partner who helps fill in the gaps in my vision.
 
-I found myself less confident these years compared to the time when i graduated from college. The reason accounts for it is perhaps the more i  have leaned ,the more lack of knowledge I found myself are.
-So I found anxious when i was preparing interviews since I found myself so much need to learn that i have no idea where to start
+I've found myself less confident these years compared to when I first graduated from college. The reason for this might be the classic paradox: the more I've learned, the more I've realized how much I don't know.
 
-I always set  unachievable goals like "build your own react in one day". These kinds of goals are too enormous which may prevent you from starting. ADHD is a common problem among people, no matter where your nationality is or what's your age. I think anxiety is  main problem beacuse people will shift to doing something easily to comfort themselves when they feel 无所适从 about this kind of huge project
+This realization made me incredibly anxious when preparing for interviews. There seemed to be so much I needed to learn that I had no idea where to start. I'd set these wildly unrealistic goals for myself, like "build your own React framework in one day." These goals were so enormous that they actually prevented me from starting at all.
 
-This kind of process bring nothing but stress to me because I don't enjoy this learning process. Maybe I value the goal too much so that I want to skip the process or I think the process is not as important as the goal. But actually, the process is what we should lay emphasis on
+I think this kind of anxiety is universal—it doesn't matter what your nationality is or how old you are. When people feel overwhelmed by a huge project, they tend to shift toward easier tasks to comfort themselves. It's a way of avoiding that paralyzing feeling of not knowing where to begin.
 
-I read a lot books including some philosophy or 社科类书籍 ,as well as architecture. 
+This whole approach brought me nothing but stress because I wasn't enjoying the learning process. Maybe I valued the outcome too much, wanting to skip straight to the end result. Or perhaps I convinced myself that the journey wasn't as important as the destination. But actually, the process is what truly matters—it's where the real learning happens.
 
+I've read quite a few books lately, ranging from philosophy and social sciences to software architecture, trying to find better approaches to learning and growth.
 What's study means to Everybody
 I found 
