@@ -31,11 +31,49 @@ Reading _The Anxious Generation_ and books about digital minimalism really opene
 
 I've started trying to quit social media and learning to sit with "boredom." In this age of information overload, the truly valuable content usually isn't what the algorithm pushes at you—it's what you actively seek out yourself. Back when information traveled more slowly, people would read the same book multiple times. Now, people speed through even TV shows at 1.5x or 2x, which probably explains why those ultra-short dramas are so popular these days.
 
-What's learning should be?
+---
 
-I reconsidered about my learning habits and my view for study. Our society has become a race where people are always comparing themselves with other people. 
+## What Should Learning Really Be?
 
- **Learning should be about discovering your interests, developing critical thinking, and finding meaning.** Yet when education becomes purely instrumental—**a means to outcompete others**—it loses its intrinsic value. We're no longer asking "What do I want to learn?" but rather "What will give me an edge?"
-So I found myself reluctant to sit still to learn anything because I want to recite them as soon as possible so that I can seek a job. So definitelly I weigh destination so much over than process. 
+I've been reconsidering my learning habits and my entire approach to education. Our society has essentially become a race where people are constantly comparing themselves to others. **Learning should be about discovering your interests, developing critical thinking, and finding meaning.** Yet when education becomes purely instrumental—**a means to outcompete others**—it loses its intrinsic value. We're no longer asking "What do I want to learn?" but rather "What will give me an edge?"
 
-The amount of knowledge that a human being  can absorb is limited, which means that if you are continually absorbing information, you can't spare time to connect these suipian information into your own mind network. But this connection is what really matters to each person because learning is a process where you relate your own knowledge to the new one . 
+This realization hit home when I examined my own behavior. I found myself reluctant to sit still and truly engage with anything because I was too focused on memorizing it as quickly as possible to land a job. I was definitely weighing the destination far more heavily than the process itself.
+
+**The Limits of Information Absorption**
+
+Here's something that _The Anxious Generation_ and digital minimalism literature emphasize: the human brain has a finite capacity for absorbing information each day. If we're constantly consuming content, what we end up with is a flood of disconnected, fragmented pieces of information. The same principle applies to learning. **Real learning only happens when you have enough focus and mental space to connect new knowledge with what you already know.** That connection—that integration into your existing mental framework—is what actually constitutes genuine understanding.
+
+When you force yourself to "memorize" too much too quickly, your brain can only process isolated fragments. There's no bandwidth left to build those crucial connections. It's the difference between cramming facts into short-term memory and actually developing a coherent understanding of a subject.
+
+**Embracing Imperfection**
+
+What's more, imperfection is the norm, not the exception. Even the most accomplished people have knowledge gaps and struggle with anxiety and uncertainty. The key isn't to eliminate every flaw or fill every gap in your knowledge. Rather, it's about learning to accept yourself and finding your own rhythm.
+
+Perhaps this very experience—this struggle with learning and comparison—is giving me the opportunity to face challenges that others haven't encountered. And maybe that's where unique growth comes from. Not from following the prescribed path perfectly, but from navigating your own imperfect journey.
+
+**Learning Beyond Graduation**
+
+This brings me to a crucial point: **graduation is not the end of learning.** When you treat learning purely as a tool for landing a job, you inevitably start working backward from some artificial deadline. This leads to that all-too-familiar pattern of cramming—what we call "临时抱佛脚" in Chinese, literally "last-minute Buddha-hugging."
+
+But anyone who's crammed knows the truth: this kind of short-term memory is exactly that—short-term. The next time you're job hunting, you'll likely need to cram all over again. If you approach every job change like an exam, only to return to a state of mental chaos afterward, it's no wonder career transitions become exhausting and dreadful.
+
+**A Different Approach**
+
+What if, instead, we viewed learning as a continuous, lifelong practice? Not something you do _for_ something else, but something valuable in itself. The goal shifts from "What do I need to know to get this job?" to "What do I want to understand? What genuinely interests me? What skills will serve me across multiple contexts and changes?"
+
+This mindset doesn't mean abandoning practical goals. Rather, it means recognizing that the most practical approach is often the one that prioritizes genuine understanding over superficial memorization. When you truly grasp something—when you've connected it to your existing knowledge and made it part of your mental landscape—you don't need to relearn it every few years. It stays with you.
+
+In a world that constantly pushes us to optimize, compete, and perform, perhaps the most radical act is to slow down, sit with discomfort, and allow ourselves the space to actually learn—not as a means to an end, but as an end in itself.
+
+---
+
+**主要优化：**
+
+- 整合了中英文内容，保持连贯性
+- 添加了小标题，让结构更清晰
+- 使用了高级衔接词（Here's something that..., What's more, This brings me to..., What if, instead...）
+- 深化了每个观点，加入了更多分析
+- 结尾呼应开头，形成完整闭环
+- 保持了个人反思的语气，同时提升了哲学深度
+
+需要我调整哪部分吗？
