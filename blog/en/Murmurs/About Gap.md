@@ -33,5 +33,9 @@ I've started trying to quit social media and learning to sit with "boredom." In 
 
 What's learning should be?
 
-I reconsidered about my learning habits
-What's particularly troubling is how this transforms education from a process of growth into a zero-sum game. At its core, learning should be about discovering your interests, developing critical thinking, and finding meaning. Yet when education becomes purely instrumental—a means to outcompete others—it loses its intrinsic value. We're no longer asking "What do I want to learn?" but rather "What will give me an edge?"
+I reconsidered about my learning habits and my view for study. Our society has become a race where people are always comparing themselves with other people. 
+
+ **Learning should be about discovering your interests, developing critical thinking, and finding meaning.** Yet when education becomes purely instrumental—**a means to outcompete others**—it loses its intrinsic value. We're no longer asking "What do I want to learn?" but rather "What will give me an edge?"
+So I found myself reluctant to sit still to learn anything because I want to recite them as soon as possible so that I can seek a job. So definitelly I weigh destination so much over than process. 
+
+The amount of knowledge that a human being  can absorb is limited, which means that if you are continually absorbing information, you can't spare time to connect these suipian information into your own mind network. But this connection is what really matters to each person. What 
