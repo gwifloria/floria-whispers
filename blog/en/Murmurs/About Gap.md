@@ -23,4 +23,10 @@ Here's the thing - when you don't have a plan, you're constantly wondering "what
 
 Think about it - so many people stress over simple things like "what should I eat today?" An adult might literally think about this question a hundred times a day. If I let these kinds of trivial questions bounce around in my head all day, how am I supposed to focus on what actually matters?
 
-The anxious generation made me realize the intential danger of social media and various apps. These apps can stimulates people's duobaan so that people maybe addicted to these apps,wasting energy and money without awareness. For example, I used to read e-books on we-read, the front page of which displays a huge block of recommended books. when I was checking this app, I 
+Here's the translation:
+
+---
+
+Reading _The Anxious Generation_ and books about digital minimalism really opened my eyes to how harmful a lot of these apps can be. So many mobile apps are built around social features and recommendation algorithms that basically work like slot machines, constantly triggering dopamine hits. Take WeChat Reading, for example—I'll open it just to continue reading a book, but then the homepage recommendations suck me in and I unconsciously add a whole bunch of books to my shelf. And don't even get me started on apps like Xiaohongshu, Douyin, Bilibili, or WeChat's video channel. A lot of people get into this pattern of bouncing between these platforms, and before they know it, the whole evening's gone.
+
+I've started trying to quit social media and learning to sit with "boredom." In this age of information overload, the truly valuable content usually isn't what the algorithm pushes at you—it's what you actively seek out yourself. Back when information traveled more slowly, people would read the same book multiple times. Now, people speed through even TV shows at 1.5x or 2x, which probably explains why those ultra-short dramas are so popular these days.
