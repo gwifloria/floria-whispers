@@ -23,3 +23,4 @@ Here's the thing - when you don't have a plan, you're constantly wondering "what
 
 Think about it - so many people stress over simple things like "what should I eat today?" An adult might literally think about this question a hundred times a day. If I let these kinds of trivial questions bounce around in my head all day, how am I supposed to focus on what actually matters?
 
+The anxious generation made me realize the intential danger of social media and various apps. These apps can stimulates people's duobaan so that people maybe addicted to these apps,wasting energy and money without awareness. For example, I used to read e-books on we-read, the front page of which displays a huge block of recommended books. when I was checking this app, I 
