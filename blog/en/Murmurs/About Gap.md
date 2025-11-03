@@ -31,4 +31,7 @@ Reading _The Anxious Generation_ and books about digital minimalism really opene
 
 I've started trying to quit social media and learning to sit with "boredom." In this age of information overload, the truly valuable content usually isn't what the algorithm pushes at you—it's what you actively seek out yourself. Back when information traveled more slowly, people would read the same book multiple times. Now, people speed through even TV shows at 1.5x or 2x, which probably explains why those ultra-short dramas are so popular these days.
 
+What's learning should be?
+
+I reconsidered about my learning habits
 What's particularly troubling is how this transforms education from a process of growth into a zero-sum game. At its core, learning should be about discovering your interests, developing critical thinking, and finding meaning. Yet when education becomes purely instrumental—a means to outcompete others—it loses its intrinsic value. We're no longer asking "What do I want to learn?" but rather "What will give me an edge?"
