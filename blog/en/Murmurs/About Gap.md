@@ -43,8 +43,6 @@ This realization hit home when I examined my own behavior. I found myself reluct
 
 Here's something that _The Anxious Generation_ and digital minimalism literature emphasize: the human brain has a finite capacity for absorbing information each day. If we're constantly consuming content, what we end up with is a flood of disconnected, fragmented pieces of information. The same principle applies to learning. **Real learning only happens when you have enough focus and mental space to connect new knowledge with what you already know.** That connection—that integration into your existing mental framework—is what actually constitutes genuine understanding.
 
-When you force yourself to "memorize" too much too quickly, your brain can only process isolated fragments. There's no bandwidth left to build those crucial connections. It's the difference between cramming facts into short-term memory and actually developing a coherent understanding of a subject.
-
 **Embracing Imperfection**
 
 What's more, imperfection is the norm, not the exception. Even the most accomplished people have knowledge gaps and struggle with anxiety and uncertainty. The key isn't to eliminate every flaw or fill every gap in your knowledge. Rather, it's about learning to accept yourself and finding your own rhythm.
