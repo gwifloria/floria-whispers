@@ -15,6 +15,11 @@ I think this kind of anxiety is universal—it doesn't matter what your national
 
 This whole approach brought me nothing but stress because I wasn't enjoying the learning process. Maybe I valued the outcome too much, wanting to skip straight to the end result. Or perhaps I convinced myself that the journey wasn't as important as the destination. But actually, the process is what truly matters—it's where the real learning happens.
 
-I've read quite a few books lately, ranging from philosophy and social sciences to literature, trying to find better approaches to learning and growth.
+I've been reading quite a bit books from philosophy and social sciences to literature - trying to find better ways to learn and grow.
 
-Keep learning is a life-long subject. I started rebuild my learning system.Day planning and Review is a g
+Lifelong learning is, well, a lifelong thing. So I've started rebuilding my entire learning system. One thing I've realized is how important it is to plan my day in the morning and review it at night. Planning helps me get clear on what I'm going to do, and the daily review helps me see what went well and what didn't.
+
+Here's the thing - when you don't have a plan, you're constantly wondering "what should I be doing right now?" But if I know exactly what I'm supposed to be doing at any given moment, I can focus on doing it _better_ rather than wasting mental energy figuring out what to do next. It's crazy how much this helps.
+
+Think about it - so many people stress over simple things like "what should I eat today?" An adult might literally think about this question a hundred times a day. If I let these kinds of trivial questions bounce around in my head all day, how am I supposed to focus on what actually matters?
+
