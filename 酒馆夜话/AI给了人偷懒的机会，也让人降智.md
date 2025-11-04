@@ -1,7 +1,13 @@
 
 First of all, I've decided to start writing articles in English so I can practice as often as possible. My goal is to rebuild my English writing skills to where they were five years ago. After writing in English, I'll use AI to translate these articles into Chinese—honestly, my Chinese writing isn't great either. But as a native Chinese speaker, communicating in Chinese comes so naturally that I don't get much practice actually _writing_ it carefully. I have to admit that these articles will all be edited by Claude again since my writing skills are already quite rusty
 
-Today, I want to talk about what Claude Code has taught me—or more specifically, what using it has revealed about my own habits.
+Lately, Claude Code has been bothering me. Not because the tool doesn't 
+work—it works incredibly well. What bothers me is what I've caught myself 
+doing while using it.
+
+I've noticed a pattern: I submit a prompt, Claude generates a plan, and 
+before I've actually read it, my finger's already moving toward the Enter 
+key. It's automatic. Mindless. And it's been costing me.
 
 
 首先说明一下，这篇文章是用英语写的，（然后 AI 再转一遍中文，虽然我的中文写作也不太好。）这样可以尽可能多地练习。我的目标是把英文写作能力恢复到五年前的水平（但也会用 AI 美化一下）
