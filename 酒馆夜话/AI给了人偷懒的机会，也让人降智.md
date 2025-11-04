@@ -5,8 +5,10 @@ First of all, I've decided to start writing in English to practice as much as po
 
 Claude Code has been bothering me lately, and I'm starting to understand why. It's not that the tool doesn't work— it's good enough to make me _think_ I can relax, but not good enough to actually read my mind. There's always a gap—between what I mean and what I communicate, between what it assumes and what my codebase actually needs.
 
-And here's the thing about humans: we love taking shortcuts. When something seems to work automatically, we stop paying attention. We hit Enter without reading the plan, thinking we're saving time and mental energy. But we're not saving anything. We're just trading one kind of effort (careful review) for another kind (frantic debugging). We think we're being lazy, but we're actually making more work for ourselves—just later, when it's harder to fix.
+And here's the thing about humans: we love taking shortcuts. When something seems to work automatically, we stop paying attention. We hit Enter without reading the plan, thinking we're saving time and mental energy. But we're not saving anything. 
 
+Not until we found the AI was continuously creating bugs and failing to fix them that I've noticed that 
+ I was actually making more work for ourselves
 
 **开篇**
 
@@ -14,34 +16,24 @@ And here's the thing about humans: we love taking shortcuts. When something seem
 
 最近 Claude Code 一直困扰着我。不是因为工具不好用——它好用到让我以为可以偷懒，但又不足以真正满足我的需求——有时候个人表述不是很清晰完整
 
-而人类都是喜欢偷懒的。当某件事看起来能省力时，我们就不再专注了。我们不读计划就按回车，以为这样能省时间、省脑子。但我们什么都没省下来。我们只是把一种努力（仔细审查）换成了另一种努力（疯狂调试）。我们以为自己在偷懒，实际上是在给自己找更多的活——只是推迟到了后面，那时候更难收拾。
-
+而人类都是喜欢偷懒的。当某件事看起来能省力时，我们就不再专注了。我们不读计划就按回车，以为这样能省时省力。但当我们发现项目崩溃时，bug 被他们越改越多时，我们不得不回看过去的代码，（这时候可能已经是屎山了），然后花更多的时间去收拾残局
 
 ---
 
 **Why This Keeps Happening**
+For those unfamiliar with Claude Code: it has a "plan mode" that shows you exactly what it's about to do before it does it. This is supposed to be a safety net—a chance to catch misunderstandings before they become problems. But I've turned it into just another thing to scroll past.
 
-The pattern is simple and disturbingly familiar. Claude generates a plan, I glance at it for maybe 5-10 seconds, and hit Enter. It feels effortless—exactly like scrolling through my phone. No mental load, no friction, just a quick tap.
-
-And that's exactly the problem.
+Claude generates a plan, I glance at it for maybe 5-10 seconds, and hit Enter. It feels effortless—exactly like scrolling through my phone. 
 
 When something requires no effort, we stop being present. We're not making a conscious decision anymore; we're just... clicking. The action becomes automatic, and our attention drifts elsewhere—to the next thing, the next notification, the next dopamine hit.
 
-For those unfamiliar with Claude Code: it has a "plan mode" that shows you exactly what it's about to do before it does it. This is supposed to be a safety net—a chance to catch misunderstandings before they become problems. But I've turned it into just another thing to scroll past.
+对不了解的人解释一下：Claude Code 有个"计划模式"，会在执行之前准确告诉你它要做什么。这本应是一个安全网——在误解变成问题之前发现它的机会。但我把它变成了又一个可以划过去的东西。
 
-
-**为什么一直发生**
-
-这个模式简单得可怕，而且熟悉得令人不安。Claude 生成一个计划，我扫一眼大概 5-10 秒，然后按回车。感觉毫不费力——就像刷手机一样。没有心智负担，没有摩擦，只是快速一按。
-
-这正是问题所在。
+Claude 生成一个计划，我扫一眼大概 5-10 秒，然后按回车。感觉毫不费力——就像刷手机一样。
 
 当某件事不需要任何努力时，我们就不再专注了。我们不再做有意识的决定，只是...点击。这个动作变成自动的，我们的注意力飘到了别处——下一件事、下一个通知、下一个多巴胺刺激。
 
-对不了解的人解释一下：Claude Code 有个"计划模式"，会在执行之前准确告诉你它要做什么。这本应是一个安全网——在误解变成问题之前发现它的机会。但我把它变成了又一个可以划过去的东西。
-
 ---
-
 
 **What This Really Reveals**
 
