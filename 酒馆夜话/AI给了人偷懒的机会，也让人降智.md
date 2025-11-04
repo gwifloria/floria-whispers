@@ -1,18 +1,12 @@
 
 First of all, I've decided to start writing articles in English so I can practice as often as possible. My goal is to rebuild my English writing skills to where they were five years ago. After writing in English, I'll use AI to translate these articles into Chinese—honestly, my Chinese writing isn't great either. But as a native Chinese speaker, communicating in Chinese comes so naturally that I don't get much practice actually _writing_ it carefully. I have to admit that these articles will all be edited by Claude again since my writing skills are already quite rusty
 
-Lately, Claude Code has been bothering me. Not because the tool doesn't 
-work—it works incredibly well. What bothers me is what I've caught myself 
-doing while using it.
-
-I've noticed a pattern: I submit a prompt, Claude generates a plan, and 
-before I've actually read it, my finger's already moving toward the Enter 
-key. It's automatic. Mindless. And it's been costing me.
+Claude Code has been bothering me lately, and I'm starting to understand why. It's not that the tool doesn't work—it's actually incredibly capable. The problem is more subtle: it's good enough to make me *think* I can relax, but not good enough to actually read my mind. There's always a gap—between what I mean and what I communicate, between what it assumes and what my codebase actually needs. And here's the thing about humans: we love taking shortcuts. When something seems to work automatically, we stop paying attention. We hit Enter without reading the plan, thinking we're saving time and mental energy. But we're not saving anything. We're just trading one kind of effort (careful review) for another kind (frantic debugging). We think we're being lazy, but we're actually making more work for ourselves—just later, when it's harder to fix.
 
 
 首先说明一下，这篇文章是用英语写的，（然后 AI 再转一遍中文，虽然我的中文写作也不太好。）这样可以尽可能多地练习。我的目标是把英文写作能力恢复到五年前的水平（但也会用 AI 美化一下）
 
-今天我想聊聊 Claude Code ——或者更准确地说，使用它让我发现了自己的哪些习惯。
+最近 Claude Code 一直困扰着我， 不是因为工具不好用——它其实非常强大。它好用到让我*以为* 可以偷懒，但又不足以真正读懂我的想法。总是有信息差——在我的意思和我 表达的内容之间，在它的假设和我代码库的实际需求之间。 而人类有个特点：喜欢走捷径。当某件事看起来能自动完成时，我们就不再专注了。我们不读计划就按回车，以为这样能省时间、省脑子。 但我们什么都没省下来。我们只是把一种努力（仔细审查）换成了另一种努力 （疯狂调试）。我们以为自己在偷懒，实际上是在给自己找更多的活——只是 推迟到了后面，那时候更难收拾。
 
 ---
 
