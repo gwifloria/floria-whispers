@@ -27,10 +27,10 @@ AI其实给了我很大帮助——它能提供新奇的灵感，从功能、交
 我重新拾起了读书的习惯，看了各类书籍：刑侦类、经济类、收纳设计、现代文学等等。但对我帮助最大的还是哲学、心理、自我管理类的书：
 
 - 《近代西方思想主义》
-- 《刻意练习》
+- 《刻意练习》Peak- Secrets from the New Science of Expertise (Anderson Ericsson & Robert Pool)
 - 《伯恩斯情绪疗法》
-- 《焦虑的一代》
-- 《手机断舍离》
+- 《焦虑的一代》The Anxious Generation(Jonathon Haidt)
+- 《手机断舍离》How to break up with your phone(Catherine Price)
 
 这几本书环环相扣，帮我构建了一个完整的认知框架。
 
