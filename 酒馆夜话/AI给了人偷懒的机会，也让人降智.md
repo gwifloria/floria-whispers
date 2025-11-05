@@ -3,12 +3,11 @@
 
 First of all, I've decided to start writing in English to practice as much as possible. My goal is to rebuild my writing skills to where they were five years ago. I'll use AI to help polish these pieces and translate them into Chinese afterward.
 
-Claude Code has been bothering me lately, and I'm starting to understand why. It's not that the tool doesn't work— it's good enough to make me _think_ I can relax, but not good enough to actually read my mind. There's always a gap—between what I mean and what I communicate, between what it assumes and what my codebase actually needs.
+Claude Code has been bothering me lately, and I'm starting to understand why. It's not that the tool doesn't work— it's good enough to help me complete some easy tasks, but not good enough to actually read my mind. There's always a gap—between what I mean and what I communicate, between what it assumes and what my codebase actually needs.
 
-And here's the thing about humans: we love taking shortcuts. When something seems to work automatically, we stop paying attention. We hit Enter without reading the plan, thinking we're saving time and mental energy. But we're not saving anything. 
+And here's the thing about human beings:  we love taking shortcuts. When something seems to work automatically, we stop paying attention. We hit Enter without reading the plan, thinking we're saving time and mental energy. 
 
-Not until we found the AI was continuously creating bugs and failing to fix them that I've noticed that 
- I was actually making more work for myself
+Not until we found the AI was continuously creating bugs and failing to fix them that I've wondered that Is ClaudeCode actually increase my productivity? 
 
 **开篇**
 
@@ -21,11 +20,11 @@ Not until we found the AI was continuously creating bugs and failing to fix them
 ---
 
 **Why This Keeps Happening**
-For those unfamiliar with Claude Code: it has a "plan mode" that shows you exactly what it's about to do before it does it. This is supposed to be a safety net—a chance to catch misunderstandings before they become problems. But I've turned it into just another thing to scroll past.
+For those unfamiliar with Claude Code: it has a "plan mode" that shows you exactly what it's about to do before it does it. This is supposed to be a safety work progress—a chance to catch misunderstandings before they become problems. But I've turned it into just another thing to scroll past.
 
-Claude generates a plan, I glance at it for maybe 5-10 seconds, and hit Enter. It feels effortless—exactly like scrolling through my phone. 
+Claude generates a plan, I glance at it for maybe 2 seconds, and hit Enter. It feels effortless—exactly like scrolling through my phone. 
 
-When something requires no effort, we stop being present. We're not making a conscious decision anymore; we're just... clicking. The action becomes automatic, and our attention drifts elsewhere—to the next thing, the next notification, the next dopamine hit.
+When something requires no effort, we stop being focused. We're not making a conscious decision anymore; we're just... clicking. The action becomes automatic, and our attention drifts elsewhere—to the next thing, the next notification, the next dopamine hit.
 
 对不了解的人解释一下：Claude Code 有个"计划模式"，会在执行之前准确告诉你它要做什么。这本应是一个安全网——在误解变成问题之前发现它的机会。但我把它变成了又一个可以划过去的东西。
 
@@ -37,8 +36,7 @@ Claude 生成一个计划，我扫一眼大概 5-10 秒，然后按回车。感�
 
 **What This Really Reveals**
 
-This isn't really about Claude Code. It's about something deeper—about attention and how we've trained ourselves to avoid it.
-
+This isn't really about Claude Code. It's about something about attention
 I've been reading _Peak: Secrets from the New Science of Expertise_ and _How to Break Up with Your Phone_ lately. Both books hammer home the same truth: you can't fake deep focus. Real learning, real skill development—it all requires you to actually pay attention, not just skim the surface while your mind's somewhere else.
 
 We've spent years training ourselves to do exactly the opposite. Years of scrolling, bouncing between apps, never sitting with anything for more than a few seconds. We've literally rewired our brains for distraction.
