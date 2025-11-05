@@ -58,12 +58,13 @@ This isn't really about Claude Code. It's about attention—and how easily we tr
 这其实并不是在说 Claude Code，而是在说注意力——以及我们是如何一点点训练自己逃避它的。
 
 I've been reading _Peak: Secrets from the New Science of Expertise_ and _How to Break Up with Your Phone_. Both books hammer home the same truth: engagement. 
-	|If your mindis wandering or you're relaxed and just having fun, you probably won't improve
-Real learning and real skill development require actual attention—not just skimming the surface while your mind's somewhere else.
 
-我最近在读《刻意练习》和《如何与手机分手》。这两本书都在反复强调一个道理：深度专注。真正的学习、真正的成长，都需要你真的在场，而不是眼睛在看、脑子早就飞走了。
+我最近在读《刻意练习》和《如何与手机分手》。这两本书都在反复强调一个道理：深度专注。
 
-So when we talk about productivity gains from AI tools, we often think less for ourselves but expect more from the tools. That habit may quietly train us to resist deep, effortful thinking.
+	｜If your mind is wandering or you're relaxed and just having fun, you probably won't improve
+	“要记住：如果你在走神，或者你很放松，并且只为了好玩，你可能不会进步。”
+
+So when we talk about productivity gains from AI tools, we often think less for ourselves but expect more from the tools. That habit may quietly train us to resist deep thinking.
 
 所以当我们谈论「AI 提升生产力」时，我们往往自己思考得更少，却对工具要求得更多。久而久之，这种习惯会让我们越来越不愿意去做那些需要投入和思考的事。
 
@@ -77,7 +78,7 @@ If we're constantly distracted—unwilling to slow down, unwilling to "waste tim
 
 Claude Code is just a tool—a mirror reflecting how we approach our work. If we bring focus and intention, it amplifies our strengths. If we bring distraction and scrolling habits, it just becomes another expensive way to waste time.
 
-Claude Code 只是一个工具——一面反映我们如何对待工作的镜子。带着专注和意图，它能放大我们的能力；带着分心和刷屏的习惯，它就只是一种昂贵的浪费。
+Claude Code 只是一个工具——一面反映我们如何对待工作的镜子。带着专注和意图，它能放大我们的能力
 
 The choice, as always, is ours.
 
