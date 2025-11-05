@@ -57,7 +57,9 @@ This isn't really about Claude Code. It's about attention—and how easily we tr
 
 这其实并不是在说 Claude Code，而是在说注意力——以及我们是如何一点点训练自己逃避它的。
 
-I've been reading _Peak: Secrets from the New Science of Expertise_ and _How to Break Up with Your Phone_. Both books hammer home the same truth: engagement. Real learning and real skill development require actual attention—not just skimming the surface while your mind's somewhere else.
+I've been reading _Peak: Secrets from the New Science of Expertise_ and _How to Break Up with Your Phone_. Both books hammer home the same truth: engagement. 
+	|If your mindis wandering or you're relaxed and just having fun, you probably won't improve
+Real learning and real skill development require actual attention—not just skimming the surface while your mind's somewhere else.
 
 我最近在读《刻意练习》和《如何与手机分手》。这两本书都在反复强调一个道理：深度专注。真正的学习、真正的成长，都需要你真的在场，而不是眼睛在看、脑子早就飞走了。
 
