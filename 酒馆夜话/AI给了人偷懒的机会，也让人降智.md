@@ -39,8 +39,6 @@ Claude 生成一个计划，我扫一眼大概 5-10 秒，然后按回车。感�
 This isn't really about Claude Code. It's about something about attention
 I've been reading _Peak: Secrets from the New Science of Expertise_ and _How to Break Up with Your Phone_ lately. Both books hammer home the same truth: you can't fake deep focus. Real learning, real skill development—it all requires you to actually pay attention, not just skim the surface while your mind's somewhere else.
 
-We've spent years training ourselves to do exactly the opposite. Years of scrolling, bouncing between apps, never sitting with anything for more than a few seconds. We've literally rewired our brains for distraction.
-
 So when we talk about productivity gains from AI tools, we're often asking the wrong question. It's not "how fast can I get this done?" The real question is: "do I actually know what I want, and am I present enough to make sure I'm getting it?"
 
 Because if we're constantly distracted, if we're unwilling to slow down and actually think—to "waste time" really absorbing something—then honestly, what are we even learning?
@@ -51,8 +49,6 @@ Because if we're constantly distracted, if we're unwilling to slow down and actu
 这其实不是关于 Claude Code，而是关于更深层的东西——关于注意力，以及我们如何训练自己逃避它。
 
 我最近在读《刻意练习》和《如何与手机分手》。两本书都反复强调同一个真理：深度专注这事儿没法装。真正的学习、真正的技能发展——都需要你真的去专注，而不是表面扫一眼，心思早飘到别处去了。
-
-我们花了好几年时间训练自己做完全相反的事。好几年的刷手机、在各个应用之间跳来跳去、从不在任何东西上停留超过几秒钟。我们真的把大脑重新训练成分心模式了。
 
 所以当我们谈论 AI 工具带来的生产力提升时，我们经常问错了问题。问题不是"我能多快完成这个？"真正的问题是："我真的知道我想要什么吗？我足够专注去确保我得到的就是我要的吗？"
 
