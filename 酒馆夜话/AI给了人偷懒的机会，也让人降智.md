@@ -48,7 +48,7 @@ This isn’t really about Claude Code. It’s about attention—and how easily w
 
 I’ve been reading _Peak: Secrets from the New Science of Expertise_ and _How to Break Up with Your Phone_. Both books hammer home the same truth: you can’t fake deep focus. Real learning and real skill development require actual attention—not just skimming the surface while your mind’s somewhere else.
 
-我最近在读《刻意练习》和《如何与手机分手》。这两本书都在反复强调一个道理：深度专注这件事没法。真正的学习、真正的成长，都需要你真的在场，而不是眼睛在看、脑子早就飞走了。
+我最近在读《刻意练习》和《如何与手机分手》。这两本书都在反复强调一个道理：深度专注。真正的学习、真正的成长，都需要你真的在场，而不是眼睛在看、脑子早就飞走了。
 
 So when we talk about productivity gains from AI tools, we often think less for ourselves but expect more from the tools. That habit may quietly train us to resist deep, effortful thinking.
 
