@@ -19,7 +19,7 @@ First of all, I've decided to start writing in English as much as possible—to 
 
 ---
 
-Claude Code has been bothering me lately, and I'm starting to understand why. It's not that the tool doesn't work—it's good enough to handle simple tasks, but not good enough to read my mind. There's always a gap—between what I mean and what I say, between what it assumes and what my codebase actually needs.
+Claude Code has been bothering me lately, and I'm starting to understand why. It's not that the tool doesn't work—it's good enough to handle simple tasks, but there's always a gap—between what I mean and what I say, between what it assumes and what my codebase actually needs.
 
 最近 Claude Code 有点困扰我，我有点过度依赖他了，用它来解决一些简单的任务还挺方便，但它又总是会出现一些 bug，毕竟人和机器的沟通还是会存在信息差
 
