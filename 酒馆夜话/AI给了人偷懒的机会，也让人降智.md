@@ -39,9 +39,8 @@ Claude 生成一个计划，我扫一眼大概 5-10 秒，然后按回车。感�
 This isn't really about Claude Code. It's about something about attention
 I've been reading _Peak: Secrets from the New Science of Expertise_ and _How to Break Up with Your Phone_ lately. Both books hammer home the same truth: you can't fake deep focus. Real learning, real skill development—it all requires you to actually pay attention, not just skim the surface while your mind's somewhere else.
 
-So when we talk about productivity gains from AI tools, we're often asking the wrong question. It's not "how fast can I get this done?" The real question is: "do I actually know what I want, and am I present enough to make sure I'm getting it?"
-
-Because if we're constantly distracted, if we're unwilling to slow down and actually think—to "waste time" really absorbing something—then honestly, what are we even learning?
+So when we talk about productivity gains from AI tools, we tend to think less by ourselves but demand more of AI tools, which may culitivate us into a habit of reluctant to think deeply or with efforts.if we're constantly distracted, if we're unwilling to slow down and actually think—to "waste time" really absorbing something
+years later ,will we still own the ability of critical thinking or even just thinking
 
 
 **这真正揭示了什么**
@@ -50,9 +49,7 @@ Because if we're constantly distracted, if we're unwilling to slow down and actu
 
 我最近在读《刻意练习》和《如何与手机分手》。两本书都反复强调同一个真理：深度专注这事儿没法装。真正的学习、真正的技能发展——都需要你真的去专注，而不是表面扫一眼，心思早飘到别处去了。
 
-所以当我们谈论 AI 工具带来的生产力提升时，我们经常问错了问题。问题不是"我能多快完成这个？"真正的问题是："我真的知道我想要什么吗？我足够专注去确保我得到的就是我要的吗？"
-
-因为如果我们一直在分心，如果我们不愿意慢下来真正思考——不愿意"浪费时间"去真正吸收一些东西——那说实话，我们到底在学什么？
+所以当我们谈论 AI 工具带来的生产力提升时，如果我们一直在分心，如果我们不愿意慢下来真正思考——不愿意"浪费时间"去真正吸收一些东西——那说实话，我们还拥有深度思考的能力吗？
 
 ---
 
