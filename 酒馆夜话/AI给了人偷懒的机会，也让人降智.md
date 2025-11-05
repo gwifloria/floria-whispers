@@ -1,3 +1,17 @@
+```yaml
+---
+status: idea          # 进度: idea/drafting/formatting/published
+type: 工坊            # 类型: 工坊/夜话
+language: 待定        # 语言: 中文/英文/双语/待定
+created: 2025-11-05  # 创建日期
+updated: 2025-11-05  # 更新日期
+tags:
+  - 标签1
+  - 标签2
+---
+
+```
+
 
 
 ### **Opening**
