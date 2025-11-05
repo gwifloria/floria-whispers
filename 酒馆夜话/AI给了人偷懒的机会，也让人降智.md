@@ -10,13 +10,13 @@ First of all, I've decided to start writing in English as much as possible—to 
 
 Claude Code has been bothering me lately, and I’m starting to understand why. It’s not that the tool doesn’t work—it’s good enough to handle simple tasks, but not good enough to read my mind. There’s always a gap—between what I mean and what I say, between what it assumes and what my codebase actually needs.
 
-最近 Claude Code 一直让我有点烦，不是因为它不好用——它可以用来做些小任务，但又不够聪明，总是会出现一些 bug，并且人和机器的沟通还是会存在信息差
+最近 Claude Code 让我有点烦，它可以用来做些小任务，但又不够聪明，总是会出现一些 bug，毕竟人和机器的沟通还是会存在信息差
 
 ---
 
-And here’s the thing about human beings: we love shortcuts. When something seems to work automatically, we stop paying attention. We hit Enter without reading the plan, thinking we’re saving time and mental energy.
+And here’s the thing about human beings: we love shortcuts. When something seems to work automatically, we stop paying attention. 
 
-人类有个通病：喜欢走捷径。只要一件事看起来能很轻松搞定，我们就放松休息。我没仔细看计划就直接按下回车，以为这样能省时间、省脑子。
+人类有个通病：喜欢走捷径。只要一件事看起来能很轻松搞定，我们就放松休息
 
 It wasn’t until I saw AI repeatedly creating bugs—and failing to fix them—that I began to wonder: does Claude Code actually make me more productive?
 
@@ -26,13 +26,13 @@ It wasn’t until I saw AI repeatedly creating bugs—and failing to fix them—
 
 ### **Why This Keeps Happening**
 
-For those unfamiliar with Claude Code: it has a “plan mode” that shows you exactly what it’s about to do before running anything. It’s supposed to be a safety net—a chance to catch misunderstandings before they turn into problems. But I’ve turned it into just another thing to scroll past.
+For those unfamiliar with Claude Code: it has a “plan mode” that shows you exactly what it’s about to do before running anything So you can catch misunderstandings before they turn into problems.
 
-对不了解的人解释一下：Claude Code 有个「计划模式」，会在执行前告诉你它打算做什么。本来这是一个安全机制——让你在问题出现前发现误解。但我却把它当成了又一个可以随手划过去的东西。
+对不了解的人解释一下：Claude Code 有个「计划模式」，会在执行前告诉你它详细的计划，在问题出现前发现误解
 
-Claude generates a plan, when i was very tires, I found my self hit Enter before I check the plan or even glance at the plan. It feels effortless and takes less than 1sec
+But when i was very tired, I found my self hit Enter before I check the plan or even glance at the plan. It feels effortless and takes less than 1sec
 
-Claude 生成计划，在我很累的时候，我发现我会直接按下回车，然后突然意识到我还没仔细看呢,按回车这件事太简单了
+但是在我很累的时候，我发现我会直接按下回车，然后突然意识到我还没仔细看呢,按回车这件事太简单了
 
 When something requires no effort, we stop being focused. We’re no longer making conscious choices—we’re just... clicking. The action becomes automatic, and our attention drifts—to the next thing, the next notification, the next dopamine hit.
 
@@ -48,7 +48,7 @@ This isn’t really about Claude Code. It’s about attention—and how easily w
 
 I’ve been reading _Peak: Secrets from the New Science of Expertise_ and _How to Break Up with Your Phone_. Both books hammer home the same truth: you can’t fake deep focus. Real learning and real skill development require actual attention—not just skimming the surface while your mind’s somewhere else.
 
-我最近在读《刻意练习》和《如何与手机分手》。这两本书都在反复强调一个道理：深度专注这件事没法装。真正的学习、真正的成长，都需要你真的在场，而不是眼睛在看、脑子早就飞走了。
+我最近在读《刻意练习》和《如何与手机分手》。这两本书都在反复强调一个道理：深度专注这件事没法。真正的学习、真正的成长，都需要你真的在场，而不是眼睛在看、脑子早就飞走了。
 
 So when we talk about productivity gains from AI tools, we often think less for ourselves but expect more from the tools. That habit may quietly train us to resist deep, effortful thinking.
 
