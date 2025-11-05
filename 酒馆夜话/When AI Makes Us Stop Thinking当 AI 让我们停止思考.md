@@ -21,21 +21,21 @@ First of all, I've decided to start writing in English as much as possible—to 
 
 Claude Code has been bothering me lately, and I'm starting to understand why. It's not that the tool doesn't work—it's good enough to handle simple tasks, but not good enough to read my mind. There's always a gap—between what I mean and what I say, between what it assumes and what my codebase actually needs.
 
-最近 Claude Code 让我有点烦，它可以用来做些小任务，但又不够聪明，总是会出现一些 bug，毕竟人和机器的沟通还是会存在信息差
+最近 Claude Code 有点困扰我，我有点过度依赖他了，用它来解决一些简单的任务还挺方便，但它又总是会出现一些 bug，毕竟人和机器的沟通还是会存在信息差
 
 ---
-
-And here's the thing about human beings: we love shortcuts. When something seems to work automatically, we stop paying attention. 
-
-人类有个通病：喜欢走捷径。只要一件事看起来能很轻松搞定，我们就放松休息
 
 It wasn't until I saw AI repeatedly creating bugs—and failing to fix them—that I began to wonder: does Claude Code actually make me more productive?
 
 直到我发现它在不断制造新的 bug、还修不好旧的 bug，我才开始怀疑：Claude Code 真的提升了我的生产力吗？
 
+And here's the thing about human beings: we love shortcuts. When something seems to work automatically, we stop paying attention. 
+
+人类有个通病：喜欢走捷径。只要一件事看起来能很轻松搞定，我们就放松休息
+
 ---
 
-### **Why This Keeps Happening**
+### **When Convenience Becomes a Trap|  当方便变成陷阱
 
 For those unfamiliar with Claude Code: it has a "plan mode" that shows you exactly what it's about to do before running anything So you can catch misunderstandings before they turn into problems.
 
@@ -51,7 +51,7 @@ When something requires no effort, we stop being focused. We're no longer making
 
 ---
 
-### **What This Really Reveals**
+### **It’s Not About the Tool — It’s About Attention问题不在工具，而在注意力**
 
 This isn't really about Claude Code. It's about attention—and how easily we train ourselves to escape it.
 
@@ -74,13 +74,12 @@ If we're constantly distracted—unwilling to slow down, unwilling to "waste tim
 
 ---
 
-### **The Choice**
+### **Don’t Let the Tool Use You**
 
-Claude Code is just a tool—we should develop the ability to reduce the repetitive work as much as possible instead of getting dominated by doing nothing requires engagement and effort
-Claude Code 只是一个工具——一面反映我们如何对待工作的镜子。带着专注和意图，它能放大我们的能力
+Claude Code is just a tool — we should learn to minimize repetitive work, not let ourselves be dominated by the illusion of doing something that requires no effort or engagement.
 
+Claude Code 终究只是一个工具。  
+我们应该学会尽可能减少重复劳动，而不是沉溺于那种「看似在做事、其实什么都不用投入」的幻觉。
 
 ---
 
-是否希望我帮你再润成更"公众号文风"的版本（比如在英文段落前加一句简短的中文引导语，让中英文过渡更自然，整体更适合阅读）？  
-那种版本会更贴近"思考类公众号"常用的节奏，比如 **小标题 + 一句口语化中文 + 英文正文** 的排版风格。
