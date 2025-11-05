@@ -8,7 +8,7 @@ Claude Code has been bothering me lately, and I'm starting to understand why. It
 And here's the thing about humans: we love taking shortcuts. When something seems to work automatically, we stop paying attention. We hit Enter without reading the plan, thinking we're saving time and mental energy. But we're not saving anything. 
 
 Not until we found the AI was continuously creating bugs and failing to fix them that I've noticed that 
- I was actually making more work for ourselves
+ I was actually making more work for myself
 
 **开篇**
 
