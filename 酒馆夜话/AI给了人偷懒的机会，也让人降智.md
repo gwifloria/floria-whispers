@@ -76,13 +76,9 @@ If we're constantly distracted—unwilling to slow down, unwilling to "waste tim
 
 ### **The Choice**
 
-Claude Code is just a tool—a mirror reflecting how we approach our work. If we bring focus and intention, it amplifies our strengths. If we bring distraction and scrolling habits, it just becomes another expensive way to waste time.
-
+Claude Code is just a tool—we should develop the ability to reduce the repetitive work as much as possible instead of getting dominated by doing nothing requires engagement and effort
 Claude Code 只是一个工具——一面反映我们如何对待工作的镜子。带着专注和意图，它能放大我们的能力
 
-The choice, as always, is ours.
-
-选择，一如既往，在我们自己手里。
 
 ---
 
