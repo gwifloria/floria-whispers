@@ -1,70 +1,76 @@
 
-**Opening**
 
-First of all, I've decided to start writing in English to practice as much as possible. My goal is to rebuild my writing skills to where they were five years ago. I'll use AI to help polish these pieces and translate them into Chinese afterward.
+### **Opening**
 
-Claude Code has been bothering me lately, and I'm starting to understand why. It's not that the tool doesn't work— it's good enough to help me complete some easy tasks, but not good enough to actually read my mind. There's always a gap—between what I mean and what I communicate, between what it assumes and what my codebase actually needs.
+First of all, I've decided to start writing in English as much as possible—to rebuild my writing skills to where they were five years ago. I’ll use AI to help polish my drafts, and then translate them into Chinese afterward.
 
-And here's the thing about human beings:  we love taking shortcuts. When something seems to work automatically, we stop paying attention. We hit Enter without reading the plan, thinking we're saving time and mental energy. 
-
-Not until we found the AI was continuously creating bugs and failing to fix them that I've wondered that Is ClaudeCode actually increase my productivity? 
-
-**开篇**
-
-首先说明一下，我决定用英文写作来尽可能多地练习，目标是把写作能力恢复到五年前的水平。我会用 AI 帮忙润色，然后翻译成中文。
-
-最近 Claude Code 一直困扰着我。不是因为工具不好用——它好用到让我以为可以偷懒，但又不足以真正满足我的需求——有时候个人表述不是很清晰完整
-
-而人类都是喜欢偷懒的。当某件事看起来能省力时，我们就不再专注了。我们不读计划就按回车，以为这样能省时省力。但当我们发现项目崩溃时，bug 被他们越改越多时，我们不得不回看过去的代码，（这时候可能已经是屎山了），然后花更多的时间去收拾残局
+首先说明一下，我决定用英文写作来尽可能多地练习，目标是把写作能力恢复到五年前的水平。我会用 AI 帮忙润色，然后再翻译成中文。
 
 ---
 
-**Why This Keeps Happening**
-For those unfamiliar with Claude Code: it has a "plan mode" that shows you exactly what it's about to do before it does it. This is supposed to be a safety work progress—a chance to catch misunderstandings before they become problems. But I've turned it into just another thing to scroll past.
+Claude Code has been bothering me lately, and I’m starting to understand why. It’s not that the tool doesn’t work—it’s good enough to handle simple tasks, but not good enough to read my mind. There’s always a gap—between what I mean and what I say, between what it assumes and what my codebase actually needs.
 
-Claude generates a plan, I glance at it for maybe 2 seconds, and hit Enter. It feels effortless—exactly like scrolling through my phone. 
-
-When something requires no effort, we stop being focused. We're not making a conscious decision anymore; we're just... clicking. The action becomes automatic, and our attention drifts elsewhere—to the next thing, the next notification, the next dopamine hit.
-
-对不了解的人解释一下：Claude Code 有个"计划模式"，会在执行之前准确告诉你它要做什么。这本应是一个安全网——在误解变成问题之前发现它的机会。但我把它变成了又一个可以划过去的东西。
-
-Claude 生成一个计划，我扫一眼大概 5-10 秒，然后按回车。感觉毫不费力——就像刷手机一样。
-
-当某件事不需要任何努力时，我们就不再专注了。我们不再做有意识的决定，只是...点击。这个动作变成自动的，我们的注意力飘到了别处——下一件事、下一个通知、下一个多巴胺刺激。
+最近 Claude Code 一直让我有点烦，不是因为它不好用——它可以用来做些小任务，但又不够聪明，总是会出现一些 bug，并且人和机器的沟通还是会存在信息差
 
 ---
 
-**What This Really Reveals**
+And here’s the thing about human beings: we love shortcuts. When something seems to work automatically, we stop paying attention. We hit Enter without reading the plan, thinking we’re saving time and mental energy.
 
-This isn't really about Claude Code. It's about something about attention
-I've been reading _Peak: Secrets from the New Science of Expertise_ and _How to Break Up with Your Phone_ lately. Both books hammer home the same truth: you can't fake deep focus. Real learning, real skill development—it all requires you to actually pay attention, not just skim the surface while your mind's somewhere else.
+人类有个通病：喜欢走捷径。只要一件事看起来能很轻松搞定，我们就放松休息。我没仔细看计划就直接按下回车，以为这样能省时间、省脑子。
 
-So when we talk about productivity gains from AI tools, we tend to think less by ourselves but demand more of AI tools, which may culitivate us into a habit of reluctant to think deeply or with efforts.if we're constantly distracted, if we're unwilling to slow down and actually think—to "waste time" really absorbing something
-years later ,will we still own the ability of critical thinking or even just thinking
+It wasn’t until I saw AI repeatedly creating bugs—and failing to fix them—that I began to wonder: does Claude Code actually make me more productive?
 
-
-**这真正揭示了什么**
-
-这其实不是关于 Claude Code，而是关于更深层的东西——关于注意力，以及我们如何训练自己逃避它。
-
-我最近在读《刻意练习》和《如何与手机分手》。两本书都反复强调同一个真理：深度专注这事儿没法装。真正的学习、真正的技能发展——都需要你真的去专注，而不是表面扫一眼，心思早飘到别处去了。
-
-所以当我们谈论 AI 工具带来的生产力提升时，如果我们一直在分心，如果我们不愿意慢下来真正思考——不愿意"浪费时间"去真正吸收一些东西——那说实话，我们还拥有深度思考的能力吗？
+直到我发现它在不断制造新的 bug、还修不好旧的 bug，我才开始怀疑：Claude Code 真的提升了我的生产力吗？
 
 ---
 
+### **Why This Keeps Happening**
 
-**The Choice**
+For those unfamiliar with Claude Code: it has a “plan mode” that shows you exactly what it’s about to do before running anything. It’s supposed to be a safety net—a chance to catch misunderstandings before they turn into problems. But I’ve turned it into just another thing to scroll past.
 
-Claude Code is just a tool—a mirror reflecting how we approach our work. If we bring mindfulness and intention, it amplifies our capabilities. If we bring our scrolling habits and fragmented attention, it just becomes another expensive distraction.
+对不了解的人解释一下：Claude Code 有个「计划模式」，会在执行前告诉你它打算做什么。本来这是一个安全机制——让你在问题出现前发现误解。但我却把它当成了又一个可以随手划过去的东西。
+
+Claude generates a plan, when i was very tires, I found my self hit Enter before I check the plan or even glance at the plan. It feels effortless and takes less than 1sec
+
+Claude 生成计划，在我很累的时候，我发现我会直接按下回车，然后突然意识到我还没仔细看呢,按回车这件事太简单了
+
+When something requires no effort, we stop being focused. We’re no longer making conscious choices—we’re just... clicking. The action becomes automatic, and our attention drifts—to the next thing, the next notification, the next dopamine hit.
+
+当某件事不再需要任何努力时，我们的专注力就消失了。我们不再是主动选择，而只是机械地点击。注意力开始飘移——飘向下一件事、下一个通知、下一个多巴胺刺激。
+
+---
+
+### **What This Really Reveals**
+
+This isn’t really about Claude Code. It’s about attention—and how easily we train ourselves to escape it.
+
+这其实并不是在说 Claude Code，而是在说注意力——以及我们是如何一点点训练自己逃避它的。
+
+I’ve been reading _Peak: Secrets from the New Science of Expertise_ and _How to Break Up with Your Phone_. Both books hammer home the same truth: you can’t fake deep focus. Real learning and real skill development require actual attention—not just skimming the surface while your mind’s somewhere else.
+
+我最近在读《刻意练习》和《如何与手机分手》。这两本书都在反复强调一个道理：深度专注这件事没法装。真正的学习、真正的成长，都需要你真的在场，而不是眼睛在看、脑子早就飞走了。
+
+So when we talk about productivity gains from AI tools, we often think less for ourselves but expect more from the tools. That habit may quietly train us to resist deep, effortful thinking.
+
+所以当我们谈论「AI 提升生产力」时，我们往往自己思考得更少，却对工具要求得更多。久而久之，这种习惯会让我们越来越不愿意去做那些需要投入和思考的事。
+
+If we’re constantly distracted—unwilling to slow down, unwilling to “waste time” really absorbing something—then years from now, will we still be capable of deep or even independent thinking?
+
+如果我们一直这样被分心、不愿放慢脚步、不愿「浪费时间」去真正吸收一些东西——多年之后，我们还会具备深度思考、甚至基本思考的能力吗？
+
+---
+
+### **The Choice**
+
+Claude Code is just a tool—a mirror reflecting how we approach our work. If we bring focus and intention, it amplifies our strengths. If we bring distraction and scrolling habits, it just becomes another expensive way to waste time.
+
+Claude Code 只是一个工具——一面反映我们如何对待工作的镜子。带着专注和意图，它能放大我们的能力；带着分心和刷屏的习惯，它就只是一种昂贵的浪费。
 
 The choice, as always, is ours.
 
-
-**选择**
-
-Claude Code 只是一个工具——一面反映我们如何对待工作的镜子。如果我们带来专注和意图，它会放大我们的能力。如果我们带来刷屏习惯和碎片化注意力，它就只是另一个昂贵的干扰。
-
-选择，一如既往，在我们手中。
+选择，一如既往，在我们自己手里。
 
 ---
+
+是否希望我帮你再润成更“公众号文风”的版本（比如在英文段落前加一句简短的中文引导语，让中英文过渡更自然，整体更适合阅读）？  
+那种版本会更贴近“思考类公众号”常用的节奏，比如 **小标题 + 一句口语化中文 + 英文正文** 的排版风格。
