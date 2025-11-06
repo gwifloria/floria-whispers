@@ -35,7 +35,7 @@ And here's the thing about human beings: we love shortcuts. When something seems
 
 ---
 
-### **When Convenience Becomes a Trap|  当方便变成陷阱
+### When Convenience Becomes a Trap|  当方便变成陷阱
 
 For those unfamiliar with Claude Code: it has a "plan mode" that shows you exactly what it's about to do before running anything So you can catch misunderstandings before they turn into problems.
 
