@@ -1,3 +1,4 @@
+ English Version [[用 ClaudeCode 写了一个 ClaudeCode 监工-en]]
 ## 引言：AI编程时代的新问题
 今年6月开始，我 开始深度使用AI编程工具付费。
 

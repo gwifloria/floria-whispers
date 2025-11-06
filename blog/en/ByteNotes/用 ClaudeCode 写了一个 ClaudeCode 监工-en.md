@@ -1,3 +1,5 @@
+中文版：[[Whispers/blog/zh/ByteNotes/用 ClaudeCode 写了一个 ClaudeCode 监工|用 ClaudeCode 写了一个 ClaudeCode 监工]]
+
 This year, I have been experimenting with various AI programming tools to assist me in writing code.  
 After subscribing to Copilot and GPT-5, I eventually chose ClaudeCode as my long-term companion.
 
