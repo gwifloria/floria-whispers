@@ -93,7 +93,7 @@
 
 ## 🛠️ 技能概览
 
-**核心技术：** React、Vue、TypeScript、JavaScript(ES6+)、HTML5、CSS3  
+**核心技术：** React、Vue、TypeScript、JavaScript、HTML5、CSS3  
 **移动端：** Taro、微信小程序原生开发  
 **工程化：** Webpack、Git、npm/yarn、Docker基础  
 **其他：** Node.js基础、MySQL基础、ECharts、地图API开发  
