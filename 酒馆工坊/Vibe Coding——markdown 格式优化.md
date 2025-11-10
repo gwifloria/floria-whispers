@@ -18,12 +18,21 @@ But I found this behavior will transform me into a
   ↓ So I write a plan to tell claudecode that I want a tool that can help me transform markdown file into formatted html file which can be displayed in wechat
   
 效果展示：before/after + 核心功能
-  ↓
+或许有人会觉得，微信公众号已经提供好了模板
+但是对于我这个新手来说，调整模板我也没有思路，再没有预期模板的情况下，与其自己找不同的公众号去寻求自己想要的方式，不如直接让 AI 帮我生成一个大概的主题即可
+
+这样我发布文章的心智负担就会进一步减少
 使用演示：3 步搞定排版（配图/GIF）
-![[GIF_20251110110818513.gif]]
 
-![[GIF_20251110110837355.gif]]
 
-![[GIF_20251110110721406.gif]]
+1. obsidian中将 markdown 拷贝至页面
+![[VID_20251110110659719.gif]]
 
-结尾：开源计划/邀请反馈
+
+2. 调整主题 
+![[iShot_2025-11-10_11.02.03.gif]]
+
+3. 拷贝至微信编辑器
+![[iShot_2025-11-10_11.00.25.gif]]
+4. 
+结尾：
