@@ -12,9 +12,10 @@ tags:
 
 ## 我用 Claude Code 做了个 Markdown → 公众号排版工具
 ```markdown
-> **TL;DR：** 做了个 Markdown → HTML 工具，一键复制到公众号。开源了，有需要的可以直接用。
+> 做了个 Markdown → HTML 工具，一键复制到公众号。开源了，有需要的可以直接用。
 ```
 
+https://www.gwifloria.space/tools/md-to-wechat
 
 ### 痛点：Markdown 到公众号的距离
 
