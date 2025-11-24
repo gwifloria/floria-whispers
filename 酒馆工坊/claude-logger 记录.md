@@ -10,9 +10,8 @@ tags:
 利用 AI 辅助写代码的最大弊端：
 注意力的切换
 
-I found myself a vital problem when I was coding with claude: how to stay focus 
+I believe many people who've coded with Claude have encountered this issue: when Claude presents a plan and pauses for our approval, we might get distracted and do something else. When Claude Code pauses before executing dangerous operations, it waits for our permission—and that's precisely when the problem occurs.
 
-I believe many people who coded with Claude have encountered the problem is that: when we permit the plan provided by claude, we may shift ourselves doing something else. When claudecode is going to do some dangerous work, it will pause until we permit this dangerous steps.
-So I found that if I shift myself seeking some dopamine stimulation like surfing on the Internet, I might be deeply attracted to those unusful information because these of content require no attetion and mental efforts
+If I start seeking dopamine stimulation by browsing the internet, I become deeply absorbed in low-effort content that requires minimal attention and mental energy. This causes me to quickly skim through Claude's plans or warning messages without really engaging with them. I end up pressing enter without even looking carefully.
 
-So it resulted that I quickly skimmed the plan or the attention message. I pressed my enter button without a glance. But when I found some bugs that claude have repetitively tried several times but failed to fix them. It waste time and definetily: tokens 
+Later, when I encounter bugs that Claude has tried repeatedly but failed to fix, I realize the cost: wasted time and tokens.
