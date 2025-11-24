@@ -3,7 +3,7 @@
 **毕业年份：** 2019年 | **性别：** 女 | **生日：** 1997-05  
 **邮箱：** gwifloria@outlook.com | **电话：** 18917945189 | **微信：** light_floria  
 **当前状态：** Gap（已调整好状态，随时可入职）  
-**个人主页：** https://gwifloria.space/contact  (💡 *内含Gap期间的思考🤔*)
+**个人主页：** https://gwifloria.space/about (💡 *内含Gap期间的思考🤔*)
 
 ---
 
