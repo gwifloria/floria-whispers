@@ -189,3 +189,67 @@ git wt ~/custom-path -b branch
 # 补救措施（忘了用 git wt 或者主 worktree 更新了配置）
 yarn sync-env ../some-worktree
 ```
+ 
+## v4 
+ 我们现在会借助 git worktree 同时让 claude 进行不同任务的开发，也意味着
+我在检查时可能会起多个服务，但是有时候我并不确定哪个服务对应的是哪一个
+feat，是否可以根据当前（文件夹名/分支名），在编译时注入前端展示，让我清晰
+的可以知道在对应分支时可以focus 
+
+使用 git worktree 同时开发多个功能时，需要在前端页面显示当前分支名，方便区
+ 分不同服务对应的功能。
+
+ 实现方案
+
+ 1. 在构建时注入分支名到环境变量
+
+ 修改文件: apps/web/next.config.mjs
+
+ 在 env 配置中添加：
+ env: {
+   // 现有配置...
+   NEXT_PUBLIC_GIT_BRANCH: (() => {
+     try {
+       return require('child_process')
+         .execSync('git rev-parse --abbrev-ref HEAD')
+         .toString().trim();
+     } catch {
+       return 'unknown';
+     }
+   })(),
+ },
+
+ 2. 创建开发环境指示器组件
+
+ 新建文件: apps/web/src/components/DevBranchIndicator.tsx
+
+ 功能：
+ - 仅在开发环境显示 (NODE_ENV === 'development')
+ - 固定在页面右下角
+ - 显示当前分支名
+ - 可折叠/展开
+ - 半透明悬浮样式
+
+ 3. 在根布局中引入组件
+
+ 修改文件: apps/web/src/app/layout.tsx
+
+ 在 body 末尾添加 <DevBranchIndicator /> 组件。
+
+ 显示内容
+
+ 指示器将显示：
+ - 分支名（如 feat/dark-mode）
+ - 可选：端口号、构建时间
+
+ 样式设计
+
+ - 位置：右下角固定
+ - 背景：半透明黑色
+ - 文字：白色小字
+ - 可点击折叠
+ - 不影响正常页面操作
+
+ 环境限制
+
+ 仅在开发环境显示 (NODE_ENV === 'development')，生产环境完全不渲染。
