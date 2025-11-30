@@ -29,13 +29,18 @@ git worktree add ../wonderland-nexus-feature-a -b feature-a
 
 每次新建一个 worktree，下次都要再手动把这文件复制一遍，真的有点麻烦，（AI 果然让人越来越懒）
 
-但因为这点小麻烦就放弃 worktree ，感觉像是捡了芝麻丢了西瓜。所以我觉得这也可以去自动化，干脆让 Claude 帮我写了个自动化方案，在座的过程中也发现了一步步迭代优化的点。
+但因为这点小麻烦就放弃 worktree ，感觉像是捡了芝麻丢了西瓜。
+所以我觉得这也可以自动化
+我自己过去在 command shell 里敲 git 命令时，已经配置过 gp（git push) gl(git pull)，所以知道少敲几个代码的舒适性。
+干脆让 Claude 帮我写了个自动化方案，在座的过程中也发现了一步步迭代优化的点。
 
 ---
 
 ## V1：自动同步 .env.local
 
 第一版的核心思路是：用一个 shell 脚本处理同步逻辑，再通过 git alias 把它和 `git worktree add` 串起来。
+我自己过去在 command shell 里敲 git 命令时，已经配置过 gp（git push) gl(git pull)，所以知道少敲几个代码的舒适性
+
 同步脚本 (scripts/sync-env-to-worktree.sh)：
 
 - 自动检测主 worktree 的位置
