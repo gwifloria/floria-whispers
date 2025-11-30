@@ -7,10 +7,11 @@ updated: {{date:YYYY-MM-DD}}
 tags:
   - 
 ---
+# Git Worktree 自动化：从繁琐到优雅的三次迭代
 
 ## 痛点
 
-在研究 claudecode 的最佳实践中，知道 Git Worktree 和 claude 的搭配可以很大程度上激发 claude 的最大潜能。但我之前用得不多，仔细剖析自己不愿意用的愿意，发现主要是两个问题：
+在研究 Claude Code 的最佳实践中，知道 Git Worktree 和 Claude 的搭配可以很大程度上激发 Claude 的最大潜能。但我之前用得不多，仔细剖析自己不愿意用的原因，发现主要是两个问题：
 
 **1. 命令太长了**
 
@@ -24,13 +25,11 @@ git worktree add ../wonderland-nexus-feature-a -b feature-a
 
 这是 Git Worktree 的特性决定的——每个 worktree 是独立的文件系统目录，而 `.env.local` 被 `.gitignore` 忽略，自然不会被 git 同步过去。
 
-问题是我的项目启动依赖这些本地环境变量配置
+问题是我的项目启动依赖这些本地环境变量配置。每次新建一个 worktree，下次都要再手动把这文件复制一遍，真的有点麻烦（AI 果然让人越来越懒）。
 
+但因为这点小麻烦就放弃使用 worktree 这个好工具，感觉像是捡了芝麻丢了西瓜。
 
-每次新建一个 worktree，下次都要再手动把这文件复制一遍，真的有点麻烦，（AI 果然让人越来越懒）
-但因为这点小麻烦就放弃 使用 worktree 这个好工具，感觉像是捡了芝麻丢了西瓜。
-
-所以我觉得这也可以自动化。我自己过去在 shell 里敲 git 命令时，已经配置过 `gp`（git push）、`gl`（git pull）这类 alias，深知少敲几个字符有多么爽。
+所以我觉得这也可以自动化。我自己过去在 shell 里敲 git 命令时，已经配置过 `gp`（git push）`gl`（git pull）这类 alias，深知少敲几个字符有多么爽。
 
 干脆让 Claude 帮我写了个自动化方案，在做的过程中也发现了可以一步步迭代优化的点。
 
@@ -40,7 +39,7 @@ git worktree add ../wonderland-nexus-feature-a -b feature-a
 
 第一版的核心思路是：用一个 shell 脚本处理同步逻辑，再通过 git alias 把它和 `git worktree add` 串起来。
 
-同步脚本 (scripts/sync-env-to-worktree.sh)：
+**同步脚本** (`scripts/sync-env-to-worktree.sh`)：
 
 - 自动检测主 worktree 的位置
 - 遍历所有需要同步的 `.env.local` 文件
@@ -48,9 +47,38 @@ git worktree add ../wonderland-nexus-feature-a -b feature-a
 
 **Git Alias** (`.git/config`)：
 
+```ini
+[alias]
+    wt = "!f() { \
+        git worktree add \"$@\" && \
+        WORKTREE_PATH=$(echo \"$@\" | awk '{print $1}') && \
+        ./scripts/sync-env-to-worktree.sh \"$WORKTREE_PATH\"; \
+    }; f"
+```
+
+当执行 `git wt` 时，会先创建 worktree，然后自动调用同步脚本。
+
+使用方式：
+
 ```bash
 git wt ../wonderland-nexus-feature feature-branch
 # 创建 worktree 后自动触发同步脚本
+```
+
+另外在 `package.json` 里也加了个 npm script 作为备用：
+
+```json
+{
+  "scripts": {
+    "sync-env": "bash scripts/sync-env-to-worktree.sh"
+  }
+}
+```
+
+这样如果忘了用 `git wt`，或者主 worktree 的 `.env.local` 更新了，还可以手动同步：
+
+```bash
+yarn sync-env ../wonderland-nexus-feat-like
 ```
 
 这样就不用每次手动复制了。但命令本身还是很长，用起来还是不够爽。
@@ -59,7 +87,26 @@ git wt ../wonderland-nexus-feature feature-branch
 
 ## V2：简化命令输入
 
-仔细观察了一下我的使用习惯：worktree 的路径通常是 `../项目名-分支名`，而分支名在命令里要敲两遍（路径里一次，`-b` 后面一次），那我觉得这也可以继续优化，就把我的需求喂给了 claudecode
+仔细观察了一下我的使用习惯：worktree 的路径通常是 `../项目名-分支名`，而分支名在命令里要敲两遍（路径里一次，`-b` 后面一次），那我觉得这也可以继续优化，就把我的需求喂给了 Claude Code。
+
+更新后的 Git Alias：
+
+```ini
+[alias]
+    wt = "!f() { \
+        if [ $# -eq 1 ]; then \
+            BRANCH=\"$1\"; \
+            WORKTREE_PATH=\"../wonderland-nexus-$BRANCH\"; \
+            git worktree add \"$WORKTREE_PATH\" -b \"$BRANCH\"; \
+        else \
+            git worktree add \"$@\"; \
+            WORKTREE_PATH=\"$1\"; \
+        fi && \
+        ./scripts/sync-env-to-worktree.sh \"$WORKTREE_PATH\"; \
+    }; f"
+```
+
+逻辑很简单：检测参数数量，如果只有一个参数就走简化模式，自动推断路径和分支名；多个参数就走完整模式，透传给原生命令。
 
 优化后只需要输入分支名：
 
@@ -92,18 +139,41 @@ git wt ~/custom-path -b custom-branch  # 完全兼容原来的用法
   └─ navbar-bug
 ```
 
-这样看起来很清晰，同类型的分支会被归到一起。这也是 Git Flow  推荐的命名方式。
+这样看起来很清晰，同类型的分支会被归到一起。这也是 Git Flow 推荐的命名方式。
 
-但我也需要保留文件夹的命名方式
+但我也需要保留文件夹的命名方式。
 
 **最终方案**：让 Git 分支名保留 `/`，而 worktree 的文件夹路径自动把 `/` 转换成 `-`：
+
+```ini
+[alias]
+    wt = "!f() { \
+        if [ $# -eq 1 ]; then \
+            BRANCH=\"$1\"; \
+            WORKTREE_NAME=$(echo \"$BRANCH\" | tr '/' '-'); \
+            WORKTREE_PATH=\"../wonderland-nexus-$WORKTREE_NAME\"; \
+            git worktree add \"$WORKTREE_PATH\" -b \"$BRANCH\"; \
+        else \
+            git worktree add \"$@\"; \
+            WORKTREE_PATH=\"$1\"; \
+        fi && \
+        ./scripts/sync-env-to-worktree.sh \"$WORKTREE_PATH\"; \
+    }; f"
+```
+
+关键改动是加了这行：
+
+```bash
+WORKTREE_NAME=$(echo \"$BRANCH\" | tr '/' '-')
+```
+
+用 `tr` 命令把分支名里的 `/` 转换成 `-`。
 
 ```bash
 git wt feat/like-button
 # Git 分支名：feat/like-button（GUI 中会分组显示）
 # Worktree 路径：../wonderland-nexus-feat-like-button（文件系统友好）
 ```
-
 
 ---
 
@@ -119,6 +189,3 @@ git wt ~/custom-path -b branch
 # 补救措施（忘了用 git wt 或者主 worktree 更新了配置）
 yarn sync-env ../some-worktree
 ```
-
----
-
