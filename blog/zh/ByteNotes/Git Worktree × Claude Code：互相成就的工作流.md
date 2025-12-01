@@ -7,11 +7,9 @@ updated: {{date:YYYY-MM-DD}}
 tags:
   - 
 ---
-
-
 ## 痛点
 
-在研究 Claude Code 的最佳实践中，知道 Git Worktree 和 Claude 的搭配可以很大程度上激发 Claude 的最大潜能。但我之前用得不多，仔细剖析自己不愿意用的原因，发现主要是两个问题：
+在研究 Claude Code 的最佳实践中，知道 Git Worktree 和 Claude 的搭配可以很大程度上激发 Claude 的最大潜能。但我之前好像用得不多，仔细剖析了一下自己：发现主要是两个问题：
 
 **1. 命令太长了**
 
@@ -23,15 +21,15 @@ git worktree add ../wonderland-nexus-feature-a -b feature-a
 
 **2. .env.local 不会自动同步**
 
-这是 Git Worktree 的特性决定的——每个 worktree 是独立的文件系统目录，而 `.env.local` 被 `.gitignore` 忽略，自然不会被 git 同步过去。
+这是 Git Worktree 的特性决定的——每个 worktree 是独立的文件系统目录，而 `.env.local` 被 `.gitignore` 忽略，不会被 git 同步过去。
 
 问题是我的项目启动依赖这些本地环境变量配置。每次新建一个 worktree，下次都要再手动把这文件复制一遍，真的有点麻烦（AI 果然让人越来越懒）。
 
-但因为这点小麻烦就放弃使用 worktree 这个好工具，感觉像是捡了芝麻丢了西瓜。
+但因为这点问题就放弃使用 worktree 这个工作流，感觉像是捡了芝麻丢了西瓜。
 
 所以我觉得这也可以自动化。我自己过去在 shell 里敲 git 命令时，已经配置过 `gp`（git push）`gl`（git pull）这类 alias，深知少敲几个字符有多么爽。
 
-干脆让 Claude 帮我写了个自动化方案，在做的过程中也发现了可以一步步迭代优化的点。
+干脆让 Claude 帮我写了个自动化方案，**尽可能让我少敲一点字**。
 
 ---
 
@@ -61,7 +59,7 @@ git worktree add ../wonderland-nexus-feature-a -b feature-a
 使用方式：
 
 ```bash
-git wt ../wonderland-nexus-feature feature-branch
+git wt ../wonderland-nexus-feature-A feature-A
 # 创建 worktree 后自动触发同步脚本
 ```
 
@@ -81,13 +79,24 @@ git wt ../wonderland-nexus-feature feature-branch
 yarn sync-env ../wonderland-nexus-feat-like
 ```
 
-这样就不用每次手动复制了。但命令本身还是很长，用起来还是不够爽。
+这样就不用每次手动复制了。但**命令本身还是很长，我还想再偷懒一点**。
 
 ---
 
 ## V2：简化命令输入
 
-仔细观察了一下我的使用习惯：worktree 的路径通常是 `../项目名-分支名`，而分支名在命令里要敲两遍（路径里一次，`-b` 后面一次），那我觉得这也可以继续优化，就把我的需求喂给了 Claude Code。
+仔细观察了一下我的使用习惯，我们通常会使用一个 feat 点去做分支命名。那么：worktree 的路径通常是 `../项目名-feat名`
+这就导致了 feat 名要敲两遍
+1. 路径里项目命名
+2. `-b` 后面定义分支名
+
+```bash
+git wt ../wonderland-nexus-feature-A feature-A
+# 创建 worktree 后自动触发同步脚本
+```
+如上，两遍 feat-A
+
+那我觉得这也可以继续优化，就把我的需求喂给了 Claude Code，让我只敲一个 feat 名，帮我自动补全文件夹命名及分支名
 
 更新后的 Git Alias：
 
@@ -111,9 +120,9 @@ yarn sync-env ../wonderland-nexus-feat-like
 优化后只需要输入分支名：
 
 ```bash
-git wt feat-xxx
-# 自动推断路径：../wonderland-nexus-feat-xxx
-# 自动创建分支：-b feat-xxx
+git wt feat-A
+# 自动推断路径：../wonderland-nexus-feat-A
+# 自动创建分支：-b feat-A
 # 自动同步 .env.local
 ```
 
@@ -123,13 +132,15 @@ git wt feat-xxx
 git wt ~/custom-path -b custom-branch  # 完全兼容原来的用法
 ```
 
-到这里已经很好用了，但我又发现了一个可以优化的点。
+到这里已经很好用了，但我又发现了一个可以在分支命名上优化的点。
 
 ---
 
 ## V3：支持分支名用 `/` 分隔
 
-我偶尔会用 Git 的 GUI 工具（比如 SourceTree），发现一个细节：如果分支名用 `/` 分隔（比如 `feat/xxx`），在 GUI 里会自动分组显示成文件夹结构：
+我偶尔会用 Git 的 GUI 工具（比如 SourceTree，包括 github 上的展示也是如此）：
+
+如果分支名用 `/` 分隔（比如 `feat/xxx`），在 GUI 里会自动分组显示成文件夹结构：
 
 ```
 📁 feat
@@ -177,7 +188,7 @@ git wt feat/like-button
 
 ---
 
-## V4：前端显示当前分支名
+## V4：Worktree多线进行，如何对应验证功能
 
 用上了 git worktree 之后，我开始同时让 Claude 在不同分支上并行开发不同功能。这也意味着我在检查时可能会同时起多个服务，但有时候我并不确定哪个浏览器窗口对应的是哪个 feat。
 
