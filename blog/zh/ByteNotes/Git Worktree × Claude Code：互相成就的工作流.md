@@ -42,7 +42,10 @@ git worktree add ../wonderland-nexus-feature-a -b feature-a
 - 自动检测主 worktree 的位置
 - 遍历所有需要同步的 `.env.local` 文件
 - 复制到目标 worktree 对应的位置
+![[Pasted image 20251201104918.png]]
 
+
+```
 **Git Alias** (`.git/config`)：
 
 ```ini
