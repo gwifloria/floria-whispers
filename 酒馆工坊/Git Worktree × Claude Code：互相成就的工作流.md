@@ -7,7 +7,7 @@ updated: {{date:YYYY-MM-DD}}
 tags:
   - 
 ---
-# 用 Claude Code 打造顺手的 Git Worktree 工作流
+
 
 ## 痛点
 
@@ -243,4 +243,4 @@ yarn sync-env ../some-worktree
 ![[Pasted image 20251201082256.png]]
 
 ## 结语
-Git Worktree 让 Claude Code 能够并行处理多个任务，充分发挥它的潜能；而 Claude Code 又能反过来帮我优化 Git Worktree 的工作流，让这套组合用起来更顺手。这大概就是工具之间互相成就的感觉。
+Git Worktree 让 Claude Code 能够并行处理多个任务，充分发挥它的潜能；而 Claude Code 又能反过来帮我优化 Git Worktree 的工作流，让这套组合用起来更顺手。这大概就是工具之间的相互成就。
