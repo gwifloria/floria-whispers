@@ -200,14 +200,173 @@ pnpm + turbo
 ```
 
 ---
+目技术亮点 - 面试陈述版
 
-# 🟦 如果你需要，我可以继续提供：
+  ---
+  1. Turborepo 单体仓库架构
 
-- **Turbo 增量构建图**（帮你彻底理解任务签名原理）
-    
-- **Turbo + pnpm + React/Next.js 的最佳实践项目模板**
-    
-- 或者直接为你展示一个 **复杂 monorepo 图的可视化 DAG 解释**
-    
+  面试官：这个项目的工程架构是怎样的？
 
-你想往哪部分继续深入？
+  我们用的是 Turborepo + Yarn Workspaces 的 Monorepo 架构。
+
+  为什么选这个方案：项目有前端、后端服务、还有几个共享库，放在一个仓库里便于
+  统一管理依赖和版本。Turborepo
+  的核心价值是增量构建和任务编排——它会分析各个包之间的依赖关系，按拓扑排序执
+  行任务，而且有本地缓存，没改过的包不会重复构建。
+
+  具体结构：
+  - packages/shared：纯类型定义，零依赖
+  - packages/database：Mongoose 模型，依赖 shared
+  - apps/web：Next.js 前端
+  - apps/service：Express 后端服务
+
+  一个细节：我在 turbo.json 里配置了 globalDependencies:
+  ["**/.env.*local"]，这样环境变量文件变化也会触发相关任务重新执行，避免缓存
+  导致的配置不生效问题。
+
+  ---
+  2. 类型系统分层设计
+
+  面试官：你们 TypeScript 是怎么组织的？
+
+  我设计了一套 Core → Db → Api 的分层类型系统，核心目的是避免字段定义重复。
+
+  痛点是这样的：一个实体比如 SyncJob，在数据库里有 _id，API 响应要转成
+  id，前端还可能有额外字段。如果分开定义，改一个字段要同步三个地方。
+
+  我的做法：
+  // 1. 核心类型，定义所有共享字段
+  interface SyncJobCore {
+    status: SyncJobStatus;
+    logs: string[];
+    createdAt: Date;
+  }
+
+  // 2. 数据库类型 = Core + _id
+  type SyncJobDb = SyncJobCore & { _id: string };
+
+  // 3. API 类型 = Core + id
+  type SyncJobApi = SyncJobCore & { id: string };
+
+  这样改 Core 里的字段，Db 和 Api 自动同步。而且用交叉类型而不是
+  extends，可以避免接口继承的一些坑。
+
+  ---
+  3. 环境变量启动时校验
+
+  面试官：你们怎么处理环境变量配置的？
+
+  我做了一个启动时预检查机制。
+
+  背景是：之前出过几次事故——本地开发一切正常，部署到 Vercel
+  后某个功能报错，查了半天发现是环境变量漏配了。
+
+  解决方案：在 next.config.mjs
+  里加了一个校验函数，应用启动时就检查必要的环境变量是否存在：
+
+  function validateRequiredEnvVars() {
+    const required = ['GITHUB_ID', 'NEXTAUTH_SECRET', 'MONGODB_URI'];
+    const missing = required.filter(v => !process.env[v]);
+
+    if (missing.length > 0) {
+      console.error('❌ Missing:', missing.join(', '));
+      console.error('💡 Please set in .env.local or Vercel settings');
+      throw new Error('Missing environment variables');
+    }
+  }
+
+  效果：问题从"运行时某个功能报错"提前到"启动就失败并给出明确提示"，定位问题
+  快很多。
+
+  ---
+  4. Serverless 友好的数据库连接
+
+  面试官：数据库连接这块有什么考虑？
+
+  我们用的 MongoDB + Mongoose，部署在 Vercel 上是 Serverless 环境。
+
+  Serverless 的问题是：每个请求可能是一个新的函数实例，如果每次都新建数据库
+  连接，很快就会把连接池打满。
+
+  我的优化：
+  const connectionOpts = {
+    maxPoolSize: 5,        // 小连接池
+    minPoolSize: 0,        // 不预留连接
+    maxIdleTimeMS: 5000,   // 快速释放空闲连接
+  };
+
+  另外做了连接复用：用一个全局 Promise
+  缓存连接，同一个实例的多个请求共享连接：
+
+  let cached = global.mongoose;
+  if (!cached) {
+    cached = global.mongoose = { conn: null, promise: null };
+  }
+
+  ---
+  5. Pre-commit 工程化流程
+
+  面试官：代码质量是怎么保障的？
+
+  我配置了一套 Husky + lint-staged 的提交前检查流程。
+
+  流程是这样的：
+  1. lint-staged：只对本次变更的文件执行 Prettier 格式化和 ESLint 修复
+  2. typecheck：通过 Turbo 执行跨包的类型检查
+  3. commitlint：校验提交信息符合 Conventional Commits 规范
+
+  一个细节：lint-staged
+  只处理暂存区的文件，不会全量扫描，几百个文件的项目也能秒级完成。
+
+  效果：基本杜绝了格式不一致、类型错误、提交信息混乱的问题。
+
+  ---
+  4. 图片优化策略
+
+  面试官：性能优化做了哪些？
+
+  图片这块我做了三层优化：
+
+  第一层，格式优先级：Next.js Image 配置了 formats: ['image/avif',
+  'image/webp']，浏览器支持 AVIF 就用 AVIF，体积能比 PNG 小 50% 以上。
+
+  第二层，长期缓存：静态图片设置 1 年不可变缓存：
+  headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000,
+  immutable' }]
+
+  第三层，构建时压缩：写了个 Sharp 脚本，构建时自动把 jpg/png 转成 avif/webp
+   两种格式，前端组件用 <picture> 标签按需加载。
+
+  ---
+  5. 监控和错误追踪
+
+  面试官：生产环境的问题怎么发现和定位？
+
+  我搭建了一套 Web Vitals + Sentry 的监控体系。
+
+  Web Vitals 收集 LCP、FID、CLS 这些核心指标，定期上报到后端，可以在 admin
+  后台看到性能趋势。
+
+  Sentry 用于错误捕获。我封装了一个 Logger 类，调用 logger.error()
+  时会同时输出控制台和上报 Sentry，而且自动附带 sessionId 和
+  userId，方便追踪用户反馈的问题。
+
+  一个细节：监控只在生产环境启用，开发时不会产生额外的 API 调用。
+
+  ---
+
+
+  快速版（30 秒介绍）
+
+  这个项目是我的个人网站，用 Turborepo + Next.js 15 搭建的 Monorepo 架构。
+
+  工程化方面，配置了 Husky pre-commit 做代码检查，设计了 Core/Db/Api
+  分层类型系统避免重复定义，还有启动时环境变量校验提前暴露配置问题。
+
+  性能方面，做了 AVIF 图片优先 + 长期缓存，数据库连接针对 Serverless
+  环境优化。
+
+  监控用的 Web Vitals + Sentry，能追踪用户会话的完整生命周期。
+
+  ---
+  需要我针对某个点再深入展开吗？
