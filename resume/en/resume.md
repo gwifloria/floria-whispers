@@ -1,7 +1,7 @@
 # HUIJUE GONG - Frontend Developer
 
 **Graduation Year:** 2019 | **Gender:** Female | **Date of Birth:** May 1997  
-**Email:** gwifloria@outlook.com | **Phone:** 18917945189 | **WeChat:** light_floria  
+**Email:** gwifloria@outlook.com | **Phone:** 18917945189 | **WeChat:** gwifloria  
 **Current Status:** Gap Year (Adjusted and ready to start immediately)  
 **Personal Website:** https://gwifloria.space/contact  (💡 *Including reflections during gap year🤔*)
 
