@@ -13,9 +13,13 @@ I went on a sunny afternoon. On my way there, I noticed many greenways lined wit
 
 After getting off the taxi, I still had to walk five or six minutes to reach the gallery. Along the path, there were many buildings constructed with stone in a style reminiscent of the Ming Dynasty, blending naturally with the surrounding woods. Having grown up in Zhujiajiao, I found this kind of architecture very familiar and comforting...
 
+Upon entering the gallery, I found only five or six other visitors. The atmosphere was quiet and unhurried—exactly the kind of stillness that invites you to linger.
 
+Three things left the deepest impression on me.
 
-> I have always believed that reading is the most important thing in life. It writes the weight of existence, and it writes one's contemplation of the relationship with the world—whether it be reading literature, reading music, or reading art.
+The first was a sentence at the very beginning of the exhibition introduction:
+
+"I have always believed that reading is the most important thing in life. It inscribes the weight of existence, and our contemplation of our relationship with the world—whether it be reading literature, reading music, or reading art."
 
 This sentence immediately set the tone for the entire exhibition. From the moment I walked in, I kept turning it over in my mind. Perhaps this was the sentence that resonated with me most deeply today—it felt like a prelude, inviting everything that followed to be felt and contemplated.
 
