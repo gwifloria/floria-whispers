@@ -1,4 +1,4 @@
-# Cache Design and Memory Management Solution
+
 
 ## 1. LRU Cache Storage (utils/storage/lru.ts)
 

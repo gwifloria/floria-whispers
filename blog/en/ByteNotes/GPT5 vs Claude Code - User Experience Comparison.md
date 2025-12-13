@@ -1,4 +1,4 @@
-# GPT5 vs Claude Code - User Experience Comparison
+
 
 > Based on actual development work experience comparison
 

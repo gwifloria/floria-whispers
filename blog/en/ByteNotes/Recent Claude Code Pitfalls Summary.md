@@ -1,4 +1,4 @@
-# Recent Claude Code Pitfalls Summary
+
 
 ### First Pitfall: Type Definitions Duplicated Everywhere
 

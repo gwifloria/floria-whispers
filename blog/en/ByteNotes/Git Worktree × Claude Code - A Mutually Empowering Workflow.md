@@ -4,7 +4,7 @@ type: Workshop
 language: EN
 ---
 
-# Git Worktree × Claude Code: A Mutually Empowering Workflow
+
 
 ## Pain Points
 

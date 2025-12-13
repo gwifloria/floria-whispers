@@ -1,4 +1,4 @@
-# LeetCode Review Notes
+
 
 ## [3634. Minimum Removals to Balance Array](https://leetcode.cn/problems/minimum-removals-to-balance-array/)
 The data to be removed must be the maximum or minimum, so prioritize sorting by size and remove from both ends.
