@@ -1,4 +1,4 @@
-# 缓存设计与内存管理方案
+
 
 ## 1. LRU 缓存存储 (utils/storage/lru.ts)
 
