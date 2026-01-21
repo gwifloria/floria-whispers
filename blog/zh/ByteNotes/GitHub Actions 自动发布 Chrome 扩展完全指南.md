@@ -65,13 +65,13 @@
 3. **获取 Refresh Token**：用 [chrome-webstore-upload-cli](https://github.com/fregante/chrome-webstore-upload-cli) 的交互命令获取
 4. **配置 GitHub Secrets**：
 
-| Secret | 说明 |
-| --- | --- |
-| `EXTENSION_ID` | 扩展 ID |
-| `CWS_CLIENT_ID` | OAuth Client ID |
+| Secret              | 说明                  |
+| ------------------- | ------------------- |
+| `EXTENSION_ID`      | 扩展 ID               |
+| `CWS_CLIENT_ID`     | OAuth Client ID     |
 | `CWS_CLIENT_SECRET` | OAuth Client Secret |
 | `CWS_REFRESH_TOKEN` | OAuth Refresh Token |
-| `VITE_XXX` | 你的应用需要的环境变量 |
+| `VITE_XXX`          | 你的应用需要的环境变量         |
 
 ![[Pasted image 20260121121554.png]]
 
