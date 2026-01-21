@@ -49,14 +49,11 @@ flowchart LR
 ### 2. 创建 OAuth 凭证
 
 在 [Google Cloud Console](https://console.cloud.google.com/) 中：
-
-<!-- 建议插入截图：Google Cloud Console 创建 OAuth 凭证的界面，标注以下步骤 -->
-
 1. 创建项目（或使用现有项目）
 2. 启用 Chrome Web Store API
 3. 创建 OAuth 2.0 凭证，类型选择「桌面应用」
 4. 记录 `Client ID` 和 `Client Secret`
-
+滴答清单的流程也类似，需要获取 id 和 secret
 ### 3. 获取 Refresh Token
 
 这一步稍微麻烦，需要手动完成 OAuth 流程获取 `refresh_token`。
@@ -65,7 +62,7 @@ flowchart LR
 
 ### 4. 配置 GitHub Secrets
 
-<!-- 建议插入截图：GitHub 仓库 Settings → Secrets 界面，标注入口位置 -->
+![[Pasted image 20260121121554.png]]
 
 在仓库 Settings → Secrets and variables → Actions 中添加：
 
@@ -101,12 +98,8 @@ flowchart LR
 
 **经验总结**：
 - 本地能跑不代表 CI 能跑，环境变量是最容易被遗漏的差异点
-- 对于构建时必须的环境变量，一定要加验证步骤
 - 自动发布后也要抽检验证，别完全信任自动化
 
-### manifest.json 版本格式
-
-Chrome Web Store 要求 `manifest.json` 中的 `version` 字段必须是纯数字格式（如 `1.2.3`），不能带 `v` 前缀。所以需要在同步时去掉前缀。
 
 ### 限制触发分支
 
@@ -123,14 +116,14 @@ Chrome Web Store 要求 `manifest.json` 中的 `version` 字段必须是纯数�
 3. 点击 "Run workflow"，选择版本类型
 4. 等待自动完成 ☕
 
-<!-- 建议插入截图：发布成功后的 GitHub Release 页面 或 Chrome Web Store 版本更新记录 -->
+![[Pasted image 20260121121702.png]]
+![[Pasted image 20260121121431.png]]
 
 ## 相关资源
 
 - [chrome-webstore-upload-cli](https://github.com/nickytonline/chrome-webstore-upload-cli) - 命令行上传工具
 - [Chrome Web Store API 文档](https://developer.chrome.com/docs/webstore/api) - 官方 API 文档
-- [First Glance 完整配置](https://github.com/anthropics/first-glance/tree/main/.github/workflows) - 本文的实际 CI/CD 配置
+- [First Glance 完整配置](https://github.com/gwifloria/first-glance/tree/main/.github/workflows) - 本文的实际 CI/CD 配置
+- https://developer.dida365.com/docs#/openapi  - 滴答清单官方 API 文档
 
----
 
-*本文基于 [First Glance](https://github.com/anthropics/first-glance) 项目的实际 CI/CD 配置编写。*
