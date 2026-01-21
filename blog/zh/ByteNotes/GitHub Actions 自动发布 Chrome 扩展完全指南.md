@@ -3,12 +3,13 @@
 
 ## 为什么要自动化发布
 
-前两天介绍自己的 Chrome 插件时候，文章写于半夜，果然漏介绍东西了，这次来补上：我如何用 GitHub Actions 实现了最简化发布。
+前两天介绍自己的 Chrome 插件时候，文章写于半夜，果然漏介绍东西了，这次来补上：我如何用 GitHub Actions 实现了最简化发布
 
-不过最近也踩了个大坑。有小伙伴反馈：装了插件后没法登录滴答清单。
+但是做了这个后，最近踩了个大坑。有小伙伴反馈：装了插件后没法登录滴答清单。
 
 经过一番排查，我想起来应该也是我这个自动化流程导致的——
-- 第一次发布是我本地手动打包的，本地 `.env.local` 有滴答清单的 API 凭证，一切正常
+
+- 第一次发布插件是我本地手动打包的，本地 `.env.local` 有滴答清单的 API 凭证，一切正常
 - 第二次是 GitHub Actions 自动打包，但我没把这些凭证配到 GitHub Secrets 里，于是自动发布的版本就成了"阉割版"——构建成功，但运行时无法调用 API
 
 而且尴尬的是自动发布成功后我偷懒没重新下载测试，直到用户反馈才发现问题 hhh
@@ -19,6 +20,7 @@
 - **一键触发**：选择版本类型，剩下的交给 CI
 - **版本一致性**：`package.json` 和 `manifest.json` 自动同步
 - **质量保障**：发布前自动执行 lint 和类型检查
+- 代码一致性：确保线上运行的代码是 main 分支的
 
 ## 整体方案
 
@@ -74,6 +76,7 @@ flowchart LR
 | `CWS_REFRESH_TOKEN` | OAuth Refresh Token |
 | `PAT` | GitHub Personal Access Token（见下文踩坑经验） |
 
+
 如果你的扩展需要调用第三方 API（如滴答清单、Notion），这些 API 凭证也必须配置到 Secrets 中。
 
 ## 踩坑经验
@@ -121,9 +124,8 @@ flowchart LR
 
 ## 相关资源
 
-- [chrome-webstore-upload-cli](https://github.com/nickytonline/chrome-webstore-upload-cli) - 命令行上传工具
+- [chrome-webstore-upload-cli]([https://github.com/nickytonline/chrome-webstore-upload-cli](https://github.com/fregante/chrome-webstore-upload-cli)) - 命令行上传工具
 - [Chrome Web Store API 文档](https://developer.chrome.com/docs/webstore/api) - 官方 API 文档
 - [First Glance 完整配置](https://github.com/gwifloria/first-glance/tree/main/.github/workflows) - 本文的实际 CI/CD 配置
 - https://developer.dida365.com/docs#/openapi  - 滴答清单官方 API 文档
-
 
