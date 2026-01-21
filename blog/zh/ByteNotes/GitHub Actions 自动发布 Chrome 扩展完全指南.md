@@ -1,9 +1,22 @@
 
-> 一次自动化发布翻车引发的思考(本来是想得瑟的)
+> 一次自动化发布翻车引发的思考（本来是想得瑟的）
+
+## 我做了什么
+
+前阵子给自己的 Chrome 插件搞了个自动化发布，告别手动打包上传。设计很简单：
+
+```mermaid
+flowchart LR
+    A[手动触发<br/>bump-version] -->|创建 tag| B[自动触发<br/>release]
+    B -->|构建 + 上传| C[Chrome Web Store]
+```
+
+- **bump-version**：手动触发，选版本类型，自动更新版本号并创建 tag
+- **release**：监听 tag，执行构建、检查、上传
+
+美滋滋，从此一键发布。
 
 ## 翻车现场
-
-前阵子给自己的 Chrome 插件搞了个自动化发布，美滋滋地以为从此告别手动打包上传。
 
 结果没几天，有小伙伴反馈：装了插件后没法登录滴答清单。
 
@@ -75,13 +88,7 @@
 
 ![[Pasted image 20260121121554.png]]
 
-5. **Workflow 设计**：推荐 tag 驱动，bump-version 创建 tag，release 监听 tag 执行发布
-
-```mermaid
-flowchart LR
-    A[手动触发<br/>bump-version] -->|创建 tag| B[自动触发<br/>release]
-    B -->|构建 + 上传| C[Chrome Web Store]
-```
+5. **Workflow 设计**：推荐 tag 驱动（见文章开头的流程图）
 
 完整配置参考：[First Glance workflows](https://github.com/gwifloria/first-glance/tree/main/.github/workflows)
 
