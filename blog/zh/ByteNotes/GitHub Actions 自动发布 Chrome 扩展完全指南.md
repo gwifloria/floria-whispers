@@ -13,7 +13,7 @@ flowchart LR
 
 - **bump-version**：手动触发，选版本类型，自动更新版本号并创建 tag
 - **release**：监听 tag，执行构建、检查、上传
-
+![[Pasted image 20260121121106.png]]
 美滋滋，从此一键发布。
 
 ## 翻车现场
