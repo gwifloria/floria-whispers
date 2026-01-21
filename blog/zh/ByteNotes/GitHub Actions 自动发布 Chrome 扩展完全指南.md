@@ -15,7 +15,8 @@ flowchart LR
 - **release**：监听 tag，执行构建、检查、上传
 ![[Pasted image 20260121121106.png]]
 美滋滋，从此一键发布。
-
+![[Pasted image 20260121121702.png]]
+![[Pasted image 20260121121431.png]]
 ## 翻车现场
 
 结果没几天，有小伙伴反馈：装了插件后没法登录滴答清单。
@@ -48,7 +49,6 @@ flowchart LR
 
 在 workflow 里加一步检查，缺变量直接失败：
 这样忘记配 Secrets 时，workflow 会在构建前就失败并明确提示。
-
 ![[Pasted image 20260121123258.png]]
 
 ### 2. 自动发布后抽检验证
