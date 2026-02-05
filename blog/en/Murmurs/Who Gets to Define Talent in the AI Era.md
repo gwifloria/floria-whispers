@@ -22,7 +22,7 @@ The whole industry is arguing now: What should we even test for in the AI era? S
 
 Here's the interesting part: the two interviewers who didn't know my former company both emphasized that handwriting ability shouldn't be replaced by AI -- yet they themselves couldn't ask many deep questions about AI. Meanwhile, a friend of mine works at Amazon, where the company not only encourages AI usage but tracks adoption rates -- people who underuse AI might actually be flagged. I also learned from HR professionals who work with US companies that most American startups now prioritize prompt engineering skills and AI collaboration mindsets, while the attitudes among Chinese companies vary quite a bit.
 
-## Am I the one stuck in a dead end?
+## "Comprehension is the baseline, handwriting is the method"
 
 Same industry, but the yardsticks are already miles apart. My sample size is small, so I won't jump to conclusions -- but I do wonder: could I be the one stuck in a dead end?
 
@@ -40,7 +40,7 @@ So I posed this dilemma to Claude Code:
 
 I really liked this response. Maybe I've been enslaved by Claude Code. (Just kidding.)
 
-## My trainer said she wants to quit
+## "Some progress is invisible to the one living it"
 
 The yardstick problem goes beyond interviews. I went to a weightlifting session this morning, and right at the start, my trainer told me she was planning to resign.
 
@@ -52,7 +52,7 @@ In this line of work, during each one-hour personal training session, she doesn'
 
 I understood where she was coming from, but I didn't fully agree. Being a personal trainer is essentially a sales role too. After three years, her intuition for different clients' needs must be far sharper than when she started -- she just might not count that as "growth." But everyone defines growth differently. Some progress is invisible to the one who's living it. That reminded me of a dinner on New Year's Eve.
 
-## New Year's Eve dinner
+## "Something quietly grows in you"
 
 I had dinner with a friend who works as a prison guard on New Year's Eve.
 
