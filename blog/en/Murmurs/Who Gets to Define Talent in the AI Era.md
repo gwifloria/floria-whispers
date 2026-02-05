@@ -20,7 +20,9 @@ Looking back at all the interviewers I've encountered since graduation, the more
 
 The whole industry is arguing now: What should we even test for in the AI era? Some believe we need to double down on handwriting code from scratch. Others think the real skill is being able to think through problems clearly and leverage AI effectively. I lean toward the latter -- not because fundamentals don't matter. I'm grateful for my five-plus years in the field: I've studied low-level principles, drilled through standardized interview questions, and dealt with all kinds of edge cases. It's precisely because of this foundation that I know where to go next.
 
-Here's the interesting part: the two interviewers who didn't know my former company both emphasized that handwriting ability shouldn't be replaced by AI, and they couldn't ask me many AI-related questions. Meanwhile, a friend of mine works at Amazon, where the company not only encourages AI usage but tracks adoption rates -- people who underuse AI might actually be flagged. I also learned from HR professionals who work with US companies that most American startups now prioritize prompt engineering skills and AI collaboration mindsets, while the attitudes among Chinese companies vary quite a bit.
+Here's the interesting part: the two interviewers who didn't know my former company both emphasized that handwriting ability shouldn't be replaced by AI -- yet they themselves couldn't ask many deep questions about AI. Meanwhile, a friend of mine works at Amazon, where the company not only encourages AI usage but tracks adoption rates -- people who underuse AI might actually be flagged. I also learned from HR professionals who work with US companies that most American startups now prioritize prompt engineering skills and AI collaboration mindsets, while the attitudes among Chinese companies vary quite a bit.
+
+## Am I the one stuck in a dead end?
 
 Same industry, but the yardsticks are already miles apart. My sample size is small, so I won't jump to conclusions -- but I do wonder: could I be the one stuck in a dead end?
 
@@ -58,7 +60,7 @@ He's been on the job for three years. Talking about his daily work, he said the 
 
 Honestly, this friend always struck me as pretty immature. But by the end of that dinner, I was stunned -- the transformation this job had brought was far greater than I'd imagined. He's not the only person I know who became a prison guard. Some chose the path simply because it's one of the easier government jobs to land. But even so, dealing with people day after day, something quietly grows in you whether you notice it or not.
 
-## Their yardstick vs. yours
+## "You really don't need to be that humble"
 
 Sometimes, the yardstick others use to measure you is completely different from the one you use on yourself.
 
