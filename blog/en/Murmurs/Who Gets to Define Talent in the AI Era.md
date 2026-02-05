@@ -42,7 +42,7 @@ I really liked this response. Around the same time, I came across a job posting 
 
 > In a world where AI is entering, reshaping, and even replacing many jobs, we are of course fully embracing AI. But on the other hand, we believe in the value of *people* more than ever before.
 
-This line and Claude Code's answer collided in my head. What does handwriting code in an interview actually test? It treats people like search engines -- type in a keyword, see if you can spit out the right answer. But people aren't search engines. People are the ones who decide what to search for.
+This line and Claude Code's answer collided in my head. What does handwriting code in an interview actually test? It treats people like search engines -- type in a keyword, see if you can spit out the right answer. But people aren't search engines. You need to understand the fundamentals, but you don't need every detail memorized -- people are the ones who carry understanding and decide what to search for.
 
 Maybe I've been enslaved by Claude Code. (Just kidding.)
 
