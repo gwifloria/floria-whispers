@@ -4,7 +4,7 @@ Life has been busy and fulfilling lately. I've been chatting with quite a few en
 
 Several collaborators mentioned reading my articles before our conversations. Some said they'd read nearly everything I'd written on tech and AI, and they were generous with their praise. They also resonated with my perspectives -- these are exactly the kind of people I want to work with. They take the time to understand you, and our views on AI just click.
 
-## "What company did you work for?"
+## Interviewers who haven't heard of the "AI Big Four"
 
 But not everyone takes the time to understand you. Recently in an interview, I was asked: What company was your previous employer?
 
