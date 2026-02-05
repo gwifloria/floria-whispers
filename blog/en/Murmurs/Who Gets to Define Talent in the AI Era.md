@@ -38,7 +38,13 @@ So I posed this dilemma to Claude Code:
 >
 > The real danger isn't "not writing code by hand anymore," but "not understanding while thinking you do" -- because AI output always looks pretty convincing.
 
-I really liked this response. Maybe I've been enslaved by Claude Code. (Just kidding.)
+I really liked this response. Around the same time, I came across a job posting from a startup I genuinely admire, YouZhiYouHang. One line stuck with me:
+
+> In a world where AI is entering, reshaping, and even replacing many jobs, we are of course fully embracing AI. But on the other hand, we believe in the value of *people* more than ever before.
+
+This line and Claude Code's answer collided in my head. What does handwriting code in an interview actually test? At its core, it tests whether a person can function as an index -- give a keyword, see if you can retrieve the exact answer. But the value of a person was never about being a good index. It's about being the one who controls the index, evaluates the results, and decides the direction.
+
+Maybe I've been enslaved by Claude Code. (Just kidding.)
 
 ## "Some progress is invisible to the one living it"
 
@@ -82,4 +88,4 @@ Who gets to define talent in the AI era? Honestly, I don't know. Maybe no one ca
 
 But it's not just interviews -- yardsticks are everywhere in life. What you should be doing at what age, which big company you should be working at, how much you should be earning -- as if everyone has to march to the same scale.
 
-But I truly believe there aren't that many "shoulds" in life. The first yardstick we need to put down is the one we use to measure ourselves.
+But I truly believe there aren't that many "shoulds" in life. Rather than being measured by yardsticks, what matters more is knowing what you hold in your own hands.
