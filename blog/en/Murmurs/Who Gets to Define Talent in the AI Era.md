@@ -42,7 +42,7 @@ I really liked this response. Around the same time, I came across a job posting 
 
 > In a world where AI is entering, reshaping, and even replacing many jobs, we are of course fully embracing AI. But on the other hand, we believe in the value of *people* more than ever before.
 
-This line and Claude Code's answer collided in my head. What does handwriting code in an interview actually test? At its core, it tests whether a person can function as an index -- give a keyword, see if you can retrieve the exact answer. But the value of a person was never about being a good index. It's about being the one who controls the index, evaluates the results, and decides the direction.
+This line and Claude Code's answer collided in my head. What does handwriting code in an interview actually test? At its core, it tests whether a person can function as an index -- give a keyword, see if you can retrieve the exact answer. But the value of a person isn't about turning yourself into the index. It's about being the one who uses it -- knowing what to search for, how to judge the results, and where to go next.
 
 Maybe I've been enslaved by Claude Code. (Just kidding.)
 
