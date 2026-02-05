@@ -46,25 +46,13 @@ This line and Claude Code's answer collided in my head. What does handwriting co
 
 Maybe I've been enslaved by Claude Code. (Just kidding.)
 
-## "Some progress is invisible to the one living it"
+## "Her yardstick couldn't measure that kind of change"
 
-The yardstick problem goes beyond interviews. I went to a weightlifting session this morning, and right at the start, my trainer told me she was planning to resign.
+The problem of too many yardsticks isn't limited to interviews -- it's the same across every industry. Everyone defines "good" and "growth" differently. I went to a weightlifting session this morning, and right at the start, my trainer said she was planning to quit. One of the reasons: during each one-hour session, she doesn't feel like she's growing. She felt that at this rate, even after three years, she still wouldn't have made any real progress.
 
-I asked her why -- was she too exhausted? She and her husband are both from Tianjin, living in Shanghai with no family support. Their daughter is only in second grade.
+I understood her, but I didn't fully agree. After three years, her intuition for different clients' needs must be far sharper than when she started -- it's just that her yardstick couldn't measure that kind of change.
 
-She said exhaustion was part of it, but the other part was:
-
-In this line of work, during each one-hour personal training session, she doesn't feel like she's growing. She felt that at this rate, even after three years, she still wouldn't have made any real progress.
-
-I understood where she was coming from, but I didn't fully agree. Being a personal trainer is essentially a sales role too. After three years, her intuition for different clients' needs must be far sharper than when she started -- she just might not count that as "growth." But everyone defines growth differently. Some progress is invisible to the one who's living it. That reminded me of a dinner on New Year's Eve.
-
-## "Something quietly grows in you"
-
-I had dinner with a friend who works as a prison guard on New Year's Eve.
-
-He's been on the job for three years. Talking about his daily work, he said the core of the job is studying human nature: different inmates require different management styles. Some respond to gentleness, others to firmness. In his daily routine, he listens to inmates vent and chat, but can't let their "innocent" appeals cloud his judgment -- and typically it's one guard managing over a dozen inmates, while those dozen are also studying you right back.
-
-Honestly, this friend always struck me as pretty immature. But by the end of that dinner, I was stunned -- the transformation this job had brought was far greater than I'd imagined. He's not the only person I know who became a prison guard. Some chose the path simply because it's one of the easier government jobs to land. But even so, dealing with people day after day, something quietly grows in you whether you notice it or not.
+Over New Year's Eve dinner with a friend who works as a prison guard, I had a similar feeling. He's been on the job for three years and said the core of his work is studying human nature -- one guard managing over a dozen inmates, while those dozen are also studying you right back. For him, the greatest reward of this job is that his insight into human nature keeps deepening -- but that kind of growth doesn't show up on any performance review.
 
 ## "You really don't need to be that humble"
 
