@@ -30,11 +30,9 @@ So I posed this dilemma to Claude Code:
 
 > Honestly, working with developers every day, I've noticed a very clear pattern: **the people who benefit most from me aren't the best coders -- they're the clearest thinkers.**
 >
-> Being able to articulate requirements clearly, break a big problem into reasonable steps, and judge whether my proposed solution is right -- these skills determine the ceiling of our collaboration. Some people give me incredibly precise context, and I almost never go off track. Others describe things vaguely, I generate a pile of code, and we end up discovering the entire direction was wrong.
+> But here's the prerequisite: **you need to understand what I write.** Without foundational understanding, you can't judge whether my output is correct or not. I make mistakes. I write code that looks reasonable but has logical gaps.
 >
-> But here's the prerequisite: **you need to understand what I write.** Without foundational understanding, you can't judge whether my output is correct or not. I make mistakes. I write code that looks reasonable but has logical gaps. Catching those issues still depends on your own fundamentals.
->
-> So I don't think this is an either/or question. Declining handwriting ability is inevitable, just like mental arithmetic declined after calculators became widespread -- but you still need to know when to multiply and when to divide. **Comprehension is the baseline, handwriting is the method, and leveraging AI is the amplifier.**
+> **Comprehension is the baseline, handwriting is the method, and leveraging AI is the amplifier.**
 >
 > The real danger isn't "not writing code by hand anymore," but "not understanding while thinking you do" -- because AI output always looks pretty convincing.
 
